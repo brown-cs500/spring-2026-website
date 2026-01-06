@@ -27,7 +27,7 @@ theme:
     - search.highlight
     - content.code.copy # copy button for code blocks (useful in courses)
     - content.external.links
-    - announce.dismiss
+    # - announce.dismiss
 
   palette:
     - scheme: default

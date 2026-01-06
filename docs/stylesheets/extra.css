@@ -35,14 +35,14 @@
 }
 
 /* Center top-level navigation tabs */
-/* .md-header__topic + .md-tabs {
+.md-header__topic + .md-tabs {
   justify-content: center;
-} */
+}
 
 /* Ensure the tab list itself is centered */
-/* .md-tabs__list {
+.md-tabs__list {
   justify-content: center;
-} */
+}
 
 /* Announcement bar background */
 .md-banner {
