@@ -1,14 +1,13 @@
 ---
 hide:
-- navigation
-- toc
+  - navigation
+  - toc
 ---
 
 # Lab Schedule
 
-Labs will be held Thursday and Friday Evenings.<br>
-Location TBD and time TBD.<br>
-will add more info here.
+Labs will be held Wednesday, Thursday, and Friday.<br>
+Location and Time is TBD.<br>
 
 <table>
   <colgroup>
@@ -23,11 +22,47 @@ will add more info here.
       <th>Date</th>
     </tr>
   </thead>
-  <tbody>
+    <tbody>
     <tr>
       <td>1</td>
-      <td><a href="https://www.google.com"> Sorting and Selection </a></td>
-      <td>1/1 – 1/8</td>
+      <td>Sorting</td>
+      <td>1/28 – 1/30</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Writing Proofs</td>
+      <td>2/4-2/6</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Dynamic Programming</td>
+      <td>2/18-2/20</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Hashing</td>
+      <td>2/25-2/27</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>Data Structures</td>
+      <td>3/4-3/6</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>Graph Algorithms: Single-Source Shortest Paths</td>
+      <td>4/1-4/3</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>Graph Algorithms: Bipartite Matching</td>
+      <td>4/8-4/10</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>NP-Hard and NP-Complete Problems</td>
+      <td>4/15-17</td>
     </tr>
   </tbody>
+
 </table>
