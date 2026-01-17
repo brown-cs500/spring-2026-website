@@ -12,19 +12,18 @@ This course will cover the basics of how to design and analyze data structures a
 
 Lectures: **M/W 3–4:20 PM** (All lectures will be recorded) <br>
 Location: **TBD** <br>
-Textbook: **Algorithmic Foundations: Data Structures, Algorithms, and Intractability. Philip Klein.**
-and **[Algorithm Design Kleinberg & Tardos](https://theswissbay.ch/pdf/Gentoomen%20Library/Algorithms/Algorithm%20Design%20-%20John%20Kleinberg%20-%20%C3%89va%20Tardos.pdf)**  
+Textbook:<a href="https://drive.google.com/drive/folders/1I5mnU9wvFXO6xmIBKYTReGlbFgcKydvY" target="_blank" rel="noopener noreferrer"><strong> Algorithmic Foundations: Data Structures, Algorithms, and Intractability. Philip Klein</strong></a> and <a href="https://theswissbay.ch/pdf/Gentoomen%20Library/Algorithms/Algorithm%20Design%20-%20John%20Kleinberg%20-%20%C3%89va%20Tardos.pdf" target="_blank" rel="noopener noreferrer"><strong>Algorithm Design. Kleinberg and Tardos</strong></a>
 
 ## Useful Links
 
-- Canvas Page
-- Course Missive/Syllabus
+- <a href = "https://canvas.brown.edu/courses/1101518" target="_blank" rel="noopener"> Canvas Page </a>
+- <a href = "https://docs.google.com/document/d/1o9Rh6Gwo2fHrO0WEwhV24fdg1IbsEtGsZxFKkDz50sE/edit?usp=sharing"  target="_blank" rel="noopener"> Course Syllabus </a>
 - <a href="https://www.gradescope.com/courses/1204707" target="_blank" rel="noopener">
     Gradescope
   </a>
 - <a href = "https://edstem.org/us/courses/90123/discussion" target= "_blank" rel="noopener"> Edstem
   </a>
-- Lecture Recordings (Panopto)
+- <a href = "https://canvas.brown.edu/courses/1101518/external_tools/33943" target= "_blank" rel="noopener"> Lecture Recordings (Panopto) </a>
 - Anonymous feedback form
 
 Lecture slides will be released in advance for every lecture. For the list of lectures, see: [Lectures](lectures.md)
