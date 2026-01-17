@@ -17,7 +17,7 @@
 
 <div class="staff-cards">
 <div class="staff-card">
-    <img src="https://media.licdn.com/dms/image/v2/D5603AQFicES1ItSoug/profile-displayphoto-shrink_400_400/B56ZbwxfArHgAg-/0/1747796226482?e=1768435200&v=beta&t=LaZ7kO7iatpLKIZZKasQbpfrSFdbFQKz_xh1pYGSceU" width="120" />
+    <img src="../assets/epa127.jpeg" width="120" />
     <div class="staff-card-text">
       <h3>Ethan Park</h3>
       <p><strong>HTA</strong> — epark73 · he/him</p>
@@ -26,11 +26,11 @@
   </div>
 
   <div class="staff-card">
-    <img src="https://media.licdn.com/dms/image/v2/D5603AQFicES1ItSoug/profile-displayphoto-shrink_400_400/B56ZbwxfArHgAg-/0/1747796226482?e=1768435200&v=beta&t=LaZ7kO7iatpLKIZZKasQbpfrSFdbFQKz_xh1pYGSceU" width="120" />
+    <img src="../assets/sbaek25.jpg" width="120" />
     <div class="staff-card-text">
       <h3>Lisa Baek</h3>
       <p><strong>HTA</strong> — sbaek25 · she/her</p>
-      <p>lisa bio here</p>
+      <p>senior, apma-cs, michigan. ask me about cooking and running!!</p>
     </div>
   </div>
 </div>
@@ -49,7 +49,7 @@
   </div>
 
   <div class="staff-card">
-    <img src="https://media.licdn.com/dms/image/v2/D5603AQFicES1ItSoug/profile-displayphoto-shrink_400_400/B56ZbwxfArHgAg-/0/1747796226482?e=1768435200&v=beta&t=LaZ7kO7iatpLKIZZKasQbpfrSFdbFQKz_xh1pYGSceU" width="120" />
+    <img src="../assets/zawang.jpg" width="120" />
     <div class="staff-card-text">
       <h3>Alice Wang</h3>
       <p><strong>UTA</strong> — zawang</p>
