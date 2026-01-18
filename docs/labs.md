@@ -36,32 +36,32 @@ Location and Time is TBD.<br>
     <tr>
       <td>3</td>
       <td>Dynamic Programming</td>
-      <td>2/18-2/20</td>
+      <td>2/18 – 2/20</td>
     </tr>
     <tr>
       <td>4</td>
       <td>Hashing</td>
-      <td>2/25-2/27</td>
+      <td>2/25 – 2/27</td>
     </tr>
     <tr>
       <td>5</td>
       <td>Data Structures</td>
-      <td>3/4-3/6</td>
+      <td>3/4 – 3/6</td>
     </tr>
     <tr>
       <td>6</td>
       <td>Graph Algorithms: Single-Source Shortest Paths</td>
-      <td>4/1-4/3</td>
+      <td>4/1 – 4/3</td>
     </tr>
     <tr>
       <td>7</td>
       <td>Graph Algorithms: Bipartite Matching</td>
-      <td>4/8-4/10</td>
+      <td>4/8 – 4/10</td>
     </tr>
     <tr>
       <td>8</td>
       <td>NP-Hard and NP-Complete Problems</td>
-      <td>4/15-17</td>
+      <td>4/15 – 4/17</td>
     </tr>
   </tbody>
 

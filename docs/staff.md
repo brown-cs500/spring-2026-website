@@ -21,7 +21,7 @@
     <div class="staff-card-text">
       <h3>Ethan Park</h3>
       <p><strong>HTA</strong> — epark73 · he/him</p>
-      <p>ethan bio here</p>
+      <p>senior, cs + bio, chicago burbs. ask me about my food allergies!!</p>
     </div>
   </div>
 
