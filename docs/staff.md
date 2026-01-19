@@ -40,7 +40,7 @@
 <div class="staff-cards">
 
   <div class="staff-card">
-    <img src="https://media.licdn.com/dms/image/v2/D5603AQFicES1ItSoug/profile-displayphoto-shrink_400_400/B56ZbwxfArHgAg-/0/1747796226482?e=1768435200&v=beta&t=LaZ7kO7iatpLKIZZKasQbpfrSFdbFQKz_xh1pYGSceU" width="120" />
+    <img src="../assets/ajain181.jpg" width="120" />
     <div class="staff-card-text">
       <h3>Aarjav Jain</h3>
       <p><strong>GTA</strong> — ajain181</p>
@@ -76,7 +76,7 @@
   </div>
 
   <div class="staff-card">
-    <img src="https://media.licdn.com/dms/image/v2/D5603AQFicES1ItSoug/profile-displayphoto-shrink_400_400/B56ZbwxfArHgAg-/0/1747796226482?e=1768435200&v=beta&t=LaZ7kO7iatpLKIZZKasQbpfrSFdbFQKz_xh1pYGSceU" width="120" />
+    <img src="../assets/wchen160.jpg" width="120" />
     <div class="staff-card-text">
       <h3>Helen Chen</h3>
       <p><strong>GTA</strong> — wchen160</p>
@@ -103,11 +103,11 @@
   </div>
 
   <div class="staff-card">
-    <img src="https://media.licdn.com/dms/image/v2/D5603AQFicES1ItSoug/profile-displayphoto-shrink_400_400/B56ZbwxfArHgAg-/0/1747796226482?e=1768435200&v=beta&t=LaZ7kO7iatpLKIZZKasQbpfrSFdbFQKz_xh1pYGSceU" width="120" />
+    <img src="../assets/the32.jpg" width="120" />
     <div class="staff-card-text">
       <h3>Ting He</h3>
       <p><strong>GTA</strong> — the32</p>
-      <p>bio here</p>
+      <p>1st year master's, cs, beijing. ask me about my cat maple :)</p>
     </div>
   </div>
 
