@@ -98,7 +98,7 @@
     <div class="staff-card-text">
       <h3>Kevin Luo</h3>
       <p><strong>UTA</strong> — khluo</p>
-      <p>Kevin is a senior from San Diego. ask him about his journey as an IBS warrior </p>
+      <p>Kevin is a senior from San Diego and has IBS. </p>
     </div>
   </div>
 
