@@ -67,7 +67,7 @@
   </div>
 
   <div class="staff-card">
-    <img src="../assets/hnugy112.jpg" width="120" />
+    <img src="../assets/hnguy112.jpg" width="120" />
     <div class="staff-card-text">
       <h3>Hang Nguyen</h3>
       <p><strong>UTA</strong> — hnguy112</p>
