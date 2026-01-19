@@ -24,7 +24,7 @@ Textbook:<a href="https://drive.google.com/drive/folders/1I5mnU9wvFXO6xmIBKYTReG
 - <a href = "https://edstem.org/us/courses/90123/discussion" target= "_blank" rel="noopener"> Edstem
   </a>
 - <a href = "https://canvas.brown.edu/courses/1101518/external_tools/33943" target= "_blank" rel="noopener"> Lecture Recordings (Panopto) </a>
-- Anonymous feedback form
+- <a href = "https://forms.gle/KY7oNuYqMJ48EeqX7" target="_blank" rel="noopener"> Anonymous feedback form </a>
 
 Lecture slides will be released in advance for every lecture. For the list of lectures, see: [Lectures](lectures.md)
 
