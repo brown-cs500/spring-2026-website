@@ -67,7 +67,7 @@
   </div>
 
   <div class="staff-card">
-    <img src="https://media.licdn.com/dms/image/v2/D5603AQFicES1ItSoug/profile-displayphoto-shrink_400_400/B56ZbwxfArHgAg-/0/1747796226482?e=1768435200&v=beta&t=LaZ7kO7iatpLKIZZKasQbpfrSFdbFQKz_xh1pYGSceU" width="120" />
+    <img src="../assets/hnugy112.jpg" width="120" />
     <div class="staff-card-text">
       <h3>Hang Nguyen</h3>
       <p><strong>UTA</strong> — hnguy112</p>
@@ -85,11 +85,11 @@
   </div>
 
   <div class="staff-card">
-    <img src="https://media.licdn.com/dms/image/v2/D5603AQFicES1ItSoug/profile-displayphoto-shrink_400_400/B56ZbwxfArHgAg-/0/1747796226482?e=1768435200&v=beta&t=LaZ7kO7iatpLKIZZKasQbpfrSFdbFQKz_xh1pYGSceU" width="120" />
+    <img src="../assets/jsjojo.jpeg" width="120" />
     <div class="staff-card-text">
       <h3>Jo Jojo</h3>
       <p><strong>UTA</strong> — jsjojo</p>
-      <p>bio here</p>
+      <p>junior, math-cs + philosophy, los angeles. ask me about the Lakers and rom-coms!</p>
     </div>
   </div>
 
@@ -98,7 +98,7 @@
     <div class="staff-card-text">
       <h3>Kevin Luo</h3>
       <p><strong>UTA</strong> — khluo</p>
-      <p>bio here</p>
+      <p>Kevin is a senior from San Diego. ask him about his journey as an IBS warrior </p>
     </div>
   </div>
 
