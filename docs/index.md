@@ -11,7 +11,7 @@ hide:
 This course will cover the basics of how to design and analyze data structures and algorithms. We will develop algorithmic intuition through rigorous analysis of algorithmic correctness and performance. We will also study the theory of NP-completeness, which helps us understand which problems are computationally intractable.
 
 Lectures: **M/W 3–4:20 PM** (All lectures will be recorded) <br>
-Location: **TBD** <br>
+Location: see <a href="https://cab.brown.edu/" target="_blank" rel="noopener noreferrer"> CAB</a> for the location
 Textbook:<a href="https://drive.google.com/drive/folders/1I5mnU9wvFXO6xmIBKYTReGlbFgcKydvY" target="_blank" rel="noopener noreferrer"><strong> Algorithmic Foundations: Data Structures, Algorithms, and Intractability. Philip Klein</strong></a> and <a href="https://theswissbay.ch/pdf/Gentoomen%20Library/Algorithms/Algorithm%20Design%20-%20John%20Kleinberg%20-%20%C3%89va%20Tardos.pdf" target="_blank" rel="noopener noreferrer"><strong>Algorithm Design. Kleinberg and Tardos</strong></a>
 
 ## Useful Links

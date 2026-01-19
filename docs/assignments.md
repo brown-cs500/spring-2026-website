@@ -18,6 +18,7 @@ hide:
       <th>Out</th>
       <th>Due</th>
       <th>LaTeX</th>
+      <th>PDF</th>
       <th>Solutions</th>
     </tr>
   </thead>
@@ -27,6 +28,7 @@ hide:
       <td>1/21</td>
       <td>1/28</td>
       <td>LaTeX</td>
+      <td>PDF</td>
       <td>Solutions</td>
     </tr>
     <tr>
@@ -34,6 +36,7 @@ hide:
       <td>1/28</td>
       <td>2/4</td>
       <td>LaTeX</td>
+      <td>PDF</td>
       <td>Solutions</td>
     </tr>
     <tr>
@@ -41,6 +44,7 @@ hide:
       <td>2/4</td>
       <td>2/11</td>
       <td>LaTeX</td>
+      <td>PDF</td>
       <td>Solutions</td>
     </tr>
     <tr>
@@ -48,6 +52,7 @@ hide:
       <td>2/11</td>
       <td>2/18</td>
       <td>LaTeX</td>
+      <td>PDF</td>
       <td>Solutions</td>
     </tr>
     <tr>
@@ -55,6 +60,7 @@ hide:
       <td>2/18</td>
       <td>2/25</td>
       <td>LaTeX</td>
+      <td>PDF</td>
       <td>Solutions</td>
     </tr>
     <tr>
@@ -62,6 +68,7 @@ hide:
       <td>2/25</td>
       <td>3/4</td>
       <td>LaTeX</td>
+      <td>PDF</td>
       <td>Solutions</td>
     </tr>
     <tr>
@@ -69,6 +76,7 @@ hide:
       <td>3/4</td>
       <td>3/11</td>
       <td>LaTeX</td>
+      <td>PDF</td>
       <td>Solutions</td>
     </tr>
     <tr>
@@ -76,6 +84,7 @@ hide:
       <td>3/18</td>
       <td>4/1</td>
       <td>LaTeX</td>
+      <td>PDF</td>
       <td>Solutions</td>
     </tr>
     <tr>
@@ -83,6 +92,7 @@ hide:
       <td>4/1</td>
       <td>4/8</td>
       <td>LaTeX</td>
+      <td>PDF</td>
       <td>Solutions</td>
     </tr>
     <tr>
@@ -90,6 +100,7 @@ hide:
       <td>4/8</td>
       <td>4/15</td>
       <td>LaTeX</td>
+      <td>PDF</td>
       <td>Solutions</td>
     </tr>
     <tr>
@@ -97,6 +108,7 @@ hide:
       <td>4/15</td>
       <td>4/22</td>
       <td>LaTeX</td>
+      <td>PDF</td>
       <td>Solutions</td>
     </tr>
   </tbody>

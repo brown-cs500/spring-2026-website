@@ -80,7 +80,7 @@
     <div class="staff-card-text">
       <h3>Helen Chen</h3>
       <p><strong>GTA</strong> — wchen160</p>
-      <p>bio here</p>
+      <p>1st year master's, cs, Vancouver. Ask me about cooking and kickboxing!</p>
     </div>
   </div>
 
