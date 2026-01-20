@@ -27,8 +27,8 @@ hide:
       <td>0. Getting Started</td>
       <td>1/21</td>
       <td>N/A</td>
-      <td>LaTeX</td>
-      <td>PDF</td>
+      <td><a href="../assets/hw/hw0.tex" target="_blank" rel="noopener noreferrer"> LaTeX</a></td>
+      <td><a href="../assets/hw/hw0.pdf" target="_blank" rel="noopener noreferrer"> PDF</a></td>
       <td>Solutions</td>
     </tr>
     <tr>
