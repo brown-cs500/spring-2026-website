@@ -44,7 +44,7 @@
     <div class="staff-card-text">
       <h3>Aarjav Jain</h3>
       <p><strong>GTA</strong> — ajain181</p>
-      <p>grad, cs + comp bio, belgium-london-usa, ask me about traveling and startups! (edited)</p>
+      <p>grad, cs + comp bio, belgium-london-usa, ask me about traveling and startups! </p>
     </div>
   </div>
 
