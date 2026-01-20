@@ -21,6 +21,7 @@ theme:
     - navigation.instant # faster navigation
     - navigation.instant.progress
     - navigation.tracking # updates URL w/ active anchor while scrolling
+    # - navigation.footer
     - toc.follow # keeps active TOC entry visible as you scroll
     - toc.integrate # optional: move TOC into left nav (see note below)
     - search.suggest
@@ -76,3 +77,5 @@ markdown_extensions:
 
 extra_css:
   - stylesheets/extra.css
+
+copyright: Copyright &copy; Lorenzo de Stefani 2026

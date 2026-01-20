@@ -46,8 +46,12 @@
 
 /* Announcement bar background */
 .md-banner {
-  background-color: #8b0000; /* example: dark red */
+  background-color: #6d0083; /* example: dark red */
   color: white;
+}
+
+.md-banner a {
+  color: rgb(255, 251, 0);
 }
 
 /* Full-width centered iframe for MkDocs Material */
