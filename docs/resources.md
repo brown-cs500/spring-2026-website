@@ -57,6 +57,5 @@ is new! If you spot any potential typos or errors, please report them in the for
 <h2>Title IX</h2>
 
 <p>
-All Brown University Employees, including Computer Science Department Teaching Assistants, are 
-**[Title IX Mandatory Reporters](https://policy.brown.edu/policy/title-ix)**.
+All Brown University Employees, including Computer Science Department Teaching Assistants, are <a href = "https://policy.brown.edu/policy/title-ix" target="_blank" rel="noopener noreferrer">Title IX Mandatory Reporters</a>
 We are required to report all violations related to: sexual assault, sexual violence, gender-based discrimination, and pregnancy-related discrimination.
