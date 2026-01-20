@@ -58,11 +58,11 @@
   </div>
 
   <div class="staff-card">
-    <img src="https://media.licdn.com/dms/image/v2/D5603AQFicES1ItSoug/profile-displayphoto-shrink_400_400/B56ZbwxfArHgAg-/0/1747796226482?e=1768435200&v=beta&t=LaZ7kO7iatpLKIZZKasQbpfrSFdbFQKz_xh1pYGSceU" width="120" />
+    <img src="../assets/gqchen.jpg" width="120" />
     <div class="staff-card-text">
       <h3>Gabe Chen</h3>
       <p><strong>UTA</strong> — gqchen</p>
-      <p>bio here</p>
+      <p>Hi! I’m Gabe. Talk to me about sci fi, board games, math, or anything else interesting!</p>
     </div>
   </div>
 
