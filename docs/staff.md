@@ -53,7 +53,7 @@
     <div class="staff-card-text">
       <h3>Alice Wang</h3>
       <p><strong>UTA</strong> — zawang</p>
-      <p>bio here</p>
+      <p>sophomore, math-cs, Vancouver. Find me in either Kassar or Gerard House!</p>
     </div>
   </div>
 
