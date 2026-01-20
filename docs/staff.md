@@ -3,7 +3,7 @@
 <div class="staff-cards">
 
 <div class="staff-card">
-    <img src="../assets/professor.jpg" width="120" />
+    <img src="../assets/pfp/professor.jpg" width="120" />
     <div class="staff-card-text">
       <h3>Lorenzo De Stefani</h3>
       <p><strong>Professor</strong> · he/him</p>
@@ -17,7 +17,7 @@
 
 <div class="staff-cards">
 <div class="staff-card">
-    <img src="../assets/epa127.jpeg" width="120" />
+    <img src="../assets/pfp/epa127.jpeg" width="120" />
     <div class="staff-card-text">
       <h3>Ethan Park</h3>
       <p><strong>HTA</strong> — epark73 · he/him</p>
@@ -26,7 +26,7 @@
   </div>
 
   <div class="staff-card">
-    <img src="../assets/sbaek25.jpg" width="120" />
+    <img src="../assets/pfp/sbaek25.jpg" width="120" />
     <div class="staff-card-text">
       <h3>Lisa Baek</h3>
       <p><strong>HTA</strong> — sbaek25 · she/her</p>
@@ -40,7 +40,7 @@
 <div class="staff-cards">
 
   <div class="staff-card">
-    <img src="../assets/ajain181.jpg" width="120" />
+    <img src="../assets/pfp/ajain181.jpg" width="120" />
     <div class="staff-card-text">
       <h3>Aarjav Jain</h3>
       <p><strong>GTA</strong> — ajain181</p>
@@ -49,7 +49,7 @@
   </div>
 
   <div class="staff-card">
-    <img src="../assets/zawang.jpg" width="120" />
+    <img src="../assets/pfp/zawang.jpg" width="120" />
     <div class="staff-card-text">
       <h3>Alice Wang</h3>
       <p><strong>UTA</strong> — zawang</p>
@@ -58,7 +58,7 @@
   </div>
 
   <div class="staff-card">
-    <img src="../assets/gqchen.jpg" width="120" />
+    <img src="../assets/pfp/gqchen.jpg" width="120" />
     <div class="staff-card-text">
       <h3>Gabe Chen</h3>
       <p><strong>UTA</strong> — gqchen</p>
@@ -67,7 +67,7 @@
   </div>
 
   <div class="staff-card">
-    <img src="../assets/hnguy112.jpg" width="120" />
+    <img src="../assets/pfp/hnguy112.jpg" width="120" />
     <div class="staff-card-text">
       <h3>Hang Nguyen</h3>
       <p><strong>UTA</strong> — hnguy112</p>
@@ -76,7 +76,7 @@
   </div>
 
   <div class="staff-card">
-    <img src="../assets/wchen160.jpg" width="120" />
+    <img src="../assets/pfp/wchen160.jpg" width="120" />
     <div class="staff-card-text">
       <h3>Helen Chen</h3>
       <p><strong>GTA</strong> — wchen160</p>
@@ -85,7 +85,7 @@
   </div>
 
   <div class="staff-card">
-    <img src="../assets/jsjojo.jpeg" width="120" />
+    <img src="../assets/pfp/jsjojo.jpeg" width="120" />
     <div class="staff-card-text">
       <h3>Jo Jojo</h3>
       <p><strong>UTA</strong> — jsjojo</p>
@@ -94,7 +94,7 @@
   </div>
 
   <div class="staff-card">
-    <img src="../assets/khluo.png" width="120" />
+    <img src="../assets/pfp/khluo.png" width="120" />
     <div class="staff-card-text">
       <h3>Kevin Luo</h3>
       <p><strong>UTA</strong> — khluo</p>
@@ -103,7 +103,7 @@
   </div>
 
   <div class="staff-card">
-    <img src="../assets/the32.jpg" width="120" />
+    <img src="../assets/pfp/the32.jpg" width="120" />
     <div class="staff-card-text">
       <h3>Ting He</h3>
       <p><strong>GTA</strong> — the32</p>
