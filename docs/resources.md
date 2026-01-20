@@ -1,4 +1,4 @@
-<h1>Textbook</h1>
+<h2>Textbook</h2>
 
 <p>
 Professor Klein's 
@@ -14,7 +14,7 @@ is new! If you spot any potential typos or errors, please report them in the for
 </a>
 </p>
 
-<h1>Resources</h1>
+<h2>Brown CS Department Resources</h2>
 
 <p>
 <a href="https://cs.brown.edu/courses/csci1010/docs.html" target="_blank" rel="noopener noreferrer">

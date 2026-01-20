@@ -7,7 +7,7 @@ hide:
 # Lab Schedule
 
 Labs will be held Wednesday, Thursday, and Friday.<br>
-Location and Time is TBD.<br>
+Location and Times can be found on the [calendar](hours.md).<br>
 
 <table>
   <colgroup>
