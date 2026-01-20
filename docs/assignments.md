@@ -24,6 +24,14 @@ hide:
   </thead>
     <tbody>
     <tr>
+      <td>0. Getting Started [OPTIONAL]</td>
+      <td>1/21</td>
+      <td>N/A</td>
+      <td>LaTeX</td>
+      <td>PDF</td>
+      <td>Solutions</td>
+    </tr>
+    <tr>
       <td>1. Introduction and Proofs</td>
       <td>1/21</td>
       <td>1/28</td>
