@@ -7,7 +7,7 @@
     <div class="staff-card-text">
       <h3>Lorenzo De Stefani</h3>
       <p><strong>Professor</strong> · he/him</p>
-      <p>Professor bio here</p>
+      <p></p>
     </div>
   </div>
 
