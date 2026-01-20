@@ -24,7 +24,7 @@ hide:
   </thead>
     <tbody>
     <tr>
-      <td>0. Getting Started [OPTIONAL]</td>
+      <td>0. Getting Started</td>
       <td>1/21</td>
       <td>N/A</td>
       <td>LaTeX</td>
