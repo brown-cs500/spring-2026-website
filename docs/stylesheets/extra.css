@@ -68,3 +68,21 @@
   margin: 0 auto;
   border: none;
 }
+
+/* Keep top tabs visible until a narrower viewport.
+   Material’s default cutoff is ~76.1875em (~1219px).
+   This override pushes the cutoff down to 64em (~1024px). */
+
+@media screen and (max-width: 40em) {
+  /* At <= 1024px, switch to hamburger/drawer */
+  .md-tabs {
+    display: none;
+  }
+}
+
+/* At > 1024px, ensure tabs are shown */
+@media screen and (min-width: 40.001em) {
+  .md-tabs {
+    display: block;
+  }
+}
