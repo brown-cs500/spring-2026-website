@@ -4,6 +4,8 @@ hide:
   - toc
 ---
 
+Linked <a href="../assets/hw/cs0500.cls" target="_blank" rel="noopener noreferrer"> here </a> is the cs0500 styling page! Please add this to your overleaf folder for proper compilation :)
+
 <table>
   <colgroup>
     <col style="width:65%;">
