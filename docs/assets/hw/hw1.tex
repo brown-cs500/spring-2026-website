@@ -1,0 +1,140 @@
+\documentclass{cs0500}
+\newcommand{\XOR}{\oplus}
+\newcommand{\OR}{\mathbb{|}}
+\newcommand{\AND}{\&}
+\newcommand{\rightshift}{\gg}
+\newcommand{\leftshift}{\ll}
+
+\hwk{1}{Review of Proof Techniques}{January 28, 2026 at 11:59 p.m.}
+
+\begin{document}
+\maketitle
+
+\assignmentInstructions
+
+\begin{problem}
+Let $f: A \to B$ and $g: B \to C$ be functions. Prove or disprove the following statement:
+\begin{center}
+    \emph{If $g \circ f$ is bijective, then $f$ is injective and $g$ is surjective.}
+\end{center}
+\end{problem}
+\begin{solution}
+    % TODO: Your solution goes here!
+\end{solution}
+\newpage
+
+
+\begin{problem}
+Prove or disprove the following statement:
+
+\begin{center}
+    \emph{Prove that the square for every odd number can be expressed as $8k + 1$ for some integer $k$}
+\end{center}
+\end{problem}
+
+\begin{solution}
+    % TODO: Your solution goes here!
+\end{solution}
+\newpage
+
+
+\begin{problem}
+You are given a rectangular chocolate bar with $m \times n$ squares of chocolate, and our task is to divide it
+into $mn$ individual squares. you are only allowed to split one piece of chocolate at a time using a vertical or a horizontal break.
+For example, suppose that the chocolate bar is 2 × 2. The first split makes two pieces,
+both 2 × 1. Each of these pieces requires one more split to form single squares. This gives a total of three splits.
+Use an induction argument to prove the correctness of the following statement:
+\begin{center}
+    $mn - 1$ splits are sufficient to divide a rectangular chocolate bar with $m × n$ squares into individual squares.
+\end{center}
+\end{problem}
+
+\begin{solution}
+    % TODO: Your solution goes here!
+\end{solution}
+
+\newpage
+\begin{problem}
+    Consider the  algorithm given as pseudocode below:
+    \begin{enumerate}
+        \item What is the output of the algorithm? Provide an informal but precise description.
+        \item Prove the correctness of the algorithm.
+        \item Analyze the running time of the algorithm.
+    \end{enumerate}
+\end{problem}
+\begin{algorithm*}
+	\caption{?-?}
+	\begin{algorithmic}
+            \State \textbf{Input:} An $n$-vertex graph represented by an adjacency matrix $\mathbf{D}$, where $\mathbf{D}[i][j]$ is the non-negative weight of the edge from vertex $i$ to vertex $j$, for $1\leq i,j \leq n$. If there is no edge connecting $i$ and $j$, $\mathbf{D}[i][j]=\infty$.
+            \State \textbf{Output: ?}
+		\For{$i$}{$0$}{$n-1$}\Comment{Initialization solution}
+                \For{$j$}{$0$}{$n-1$}
+		          \State $\mathbf{S}[i][j]\leftarrow \infty$
+                \EndFor
+            \EndFor
+
+            \For{k}{$0$}{$n-1$}
+                \For{i}{$0$}{$n-1$}
+                    \For{j}{$0$}{$n-1$}
+                        \State $\mathbf{S}[i][j]\leftarrow \min \{\mathbf{S}[i][j], \mathbf{S}[i][j]+\mathbf{S}[k][k]\}$
+		          \EndFor
+                \EndFor
+            \EndFor
+	\end{algorithmic} 
+\end{algorithm*} 
+\begin{solution}
+    % Type your answers to Problem 5 here!
+\end{solution}
+
+\newpage
+\begin{problem}
+A \emph{bit}, as you probably know, is a value that is either 0 or 1.  A nonnegative integer can be written
+in binary, which means base two, and the binary representation can be interpreted as a sequence of bits.  For example, the number thirteen is represented in binary as 1011.  The rightmost position is the one's position, the second-to-rightmost position is the two's position, the third-to-rightmost position is the four's position, and so on.  
+
+
+A \emph{bitwise operator} operates on 
+nonnegative integers by interpreting the integers as sequences of bits.
+
+    \begin{itemize}
+        \item \underline{AND (\AND):} The AND of two nonnegative integers is the integer whose binary representation
+        obeys the following: for each bit position, the output bit is the AND of the two input bits in the 
+        same position. \\ Example: \verb|1100 & 1010 = 1000| 
+        \item \underline{OR ($\OR$):} The OR of two nonnegative integers is the integer whose binary representation
+        obeys the following: for each bit position, the output bit is the OR of the two input bits in the 
+        same position. \\ Example: \verb|1100| $\OR$ \verb| 1010 = 1110|
+        \item \underline{Exclusive OR (aka XOR, $\XOR$, \^{}):} The XOR of two nonnegative integers is the integer whose binary representation
+        obeys the following: for each bit position, the output bit is the XOR of the two input bits in the 
+        same position.\\ Example: \verb|1100 ^ 1010 = 0110|
+        \end{itemize}
+ Bitwise AND, OR, and XOR are commutative and associative.
+\medskip
+
+Here are two more operators that interpret values as binary:
+    \begin{itemize}
+        \item \underline{Bit right shift ($\rightshift$):} The left operand value, interpreted as a sequence of bits, is shifted right by the number $n$ of bits specified by the right operand value.  Because the output is required to be an integer, the $n$ lowest-order bit are discarded. \\ Example: \verb|11010 >> 2 = 110|
+        \item \underline{Bit left shift ($\leftshift$):} The left operand value, interpreted as a sequence of bits, is shifted left by the number $n$ of bits specified by the right operand value. Zeros are inserted and become the rightmost $n$ bits.\\ Example: \verb|1011 << 2 = 101100|
+    \end{itemize}
+
+
+    
+\begin{enumerate}
+        \item Evaluate the following expressions: \begin{enumerate}[(i)]
+            \item $1000 \XOR 111 \XOR 11 \XOR 1$
+            \item $(111111 \rightshift 5) \leftshift 5$
+            \item $1001 \AND 1011 \OR 1000$
+        \end{enumerate}
+        \item What are the identity elements of bitwise AND, OR, and XOR?
+        \item Identify the bitwise operation \verb| x ? y| equivalent to the following operations in Python: \begin{enumerate}[(i)]
+            \item \verb|x * (2 ** y)|
+            \item \verb|x // (2 ** y)|
+        \end{enumerate}
+        \item Say we have a large positive integer $x$. How can we find $x \text{ mod } 2^4$ without using mod (instead using a binary operation)?
+    \end{enumerate}
+    
+\end{problem}
+\begin{solution}
+    % Type your answers to Problem 5 here!
+\end{solution}
+
+
+\end{document}

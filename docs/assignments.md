@@ -35,8 +35,8 @@ hide:
       <td>1. Introduction and Proofs</td>
       <td>1/21</td>
       <td>1/28</td>
-      <td>LaTeX</td>
-      <td>PDF</td>
+      <td><a href="../assets/hw/hw1.tex" target="_blank" rel="noopener noreferrer"> LaTeX</a></td>
+      <td><a href="../assets/hw/hw1.pdf" target="_blank" rel="noopener noreferrer"> PDF</a></td>
       <td>Solutions</td>
     </tr>
     <tr>
