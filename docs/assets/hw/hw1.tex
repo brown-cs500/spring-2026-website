@@ -65,18 +65,18 @@ Use an induction argument to prove the correctness of the following statement:
 \begin{algorithm*}
 	\caption{?-?}
 	\begin{algorithmic}
-            \State \textbf{Input:} An $n$-vertex graph represented by an adjacency matrix $\mathbf{D}$, where $\mathbf{D}[i][j]$ is the non-negative weight of the edge from vertex $i$ to vertex $j$, for $1\leq i,j \leq n$. If there is no edge connecting $i$ and $j$, $\mathbf{D}[i][j]=\infty$.
+            \State \textbf{Input:} An $n$-vertex graph represented by an adjacency matrix $\mathbf{D}$, where $\mathbf{D}[i][j]$ is the non-negative weight of the edge from vertex $i$ to vertex $j$, for $0\leq i,j < n$. If there is no edge connecting $i$ and $j$, $\mathbf{D}[i][j]=\infty$.
             \State \textbf{Output: ?}
-		\For{$i$}{$0$}{$n-1$}\Comment{Initialization solution}
-                \For{$j$}{$0$}{$n-1$}
-		          \State $\mathbf{S}[i][j]\leftarrow \infty$
+		\For{$i\leftarrow 0$ \textbf{to} $n-1$}\Comment{Initialization solution}
+                \For{$j\leftarrow 0$ \textbf{to} $n-1$}
+		          \State $\mathbf{S}[i][j]\leftarrow \mathbf{D}[i][j]$
                 \EndFor
             \EndFor
 
-            \For{k}{$0$}{$n-1$}
-                \For{i}{$0$}{$n-1$}
-                    \For{j}{$0$}{$n-1$}
-                        \State $\mathbf{S}[i][j]\leftarrow \min \{\mathbf{S}[i][j], \mathbf{S}[i][j]+\mathbf{S}[k][k]\}$
+            \For{$k\leftarrow 0$ \textbf{to} $n-1$}
+                \For{$i\leftarrow 0$ \textbf{to} $n-1$}
+                    \For{$j\leftarrow 0$ \textbf{to} $n-1$}
+                        \State $\mathbf{S}[i][j]\leftarrow \min \{\mathbf{S}[i][j], \mathbf{S}[i][k]+\mathbf{S}[k][j]\}$
 		          \EndFor
                 \EndFor
             \EndFor
