@@ -25,7 +25,7 @@ Location and Times can be found on the [calendar](hours.md).<br>
     <tbody>
     <tr>
       <td>1</td>
-      <td>Sorting</td>
+      <td><a href="https://classroom.github.com/a/0LKPZZoT" target="_blank" rel="noopener noreferrer"> Sorting</a></td>
       <td>1/28 – 1/30</td>
     </tr>
     <tr>
