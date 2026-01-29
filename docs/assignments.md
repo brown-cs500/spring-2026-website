@@ -45,8 +45,8 @@ Linked <a href="../assets/hw/cs0500.cls" target="_blank" rel="noopener noreferre
       <td>2. Sorting and Selection</td>
       <td>1/28</td>
       <td>2/4</td>
-      <td>LaTeX</td>
-      <td>PDF</td>
+      <td><a href="../assets/hw/hw2.tex" target="_blank" rel="noopener noreferrer"> LaTeX</a></td>
+      <td><a href="../assets/hw/hw2.pdf" target="_blank" rel="noopener noreferrer"> PDF</a></td>
       <td>Solutions</td>
     </tr>
     <tr>
