@@ -31,7 +31,7 @@ Linked <a href="../assets/hw/cs0500.cls" target="_blank" rel="noopener noreferre
       <td>N/A</td>
       <td><a href="../assets/hw/hw0.tex" target="_blank" rel="noopener noreferrer"> LaTeX</a></td>
       <td><a href="../assets/hw/hw0.pdf" target="_blank" rel="noopener noreferrer"> PDF</a></td>
-      <td><a href="../assets/hw/hw0_sol.pdf" target="_blank" rel="noopener noreferrer"> Solutions</td>
+      <td><a href="../assets/hw/hw0_sol.pdf" target="_blank" rel="noopener noreferrer"> Solutions</a></td>
     </tr>
     <tr>
       <td>1. Introduction and Proofs</td>
