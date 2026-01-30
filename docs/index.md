@@ -17,7 +17,7 @@ Textbook:<a href="https://drive.google.com/drive/folders/1I5mnU9wvFXO6xmIBKYTReG
 ## Useful Links
 
 - <a href = "https://canvas.brown.edu/courses/1101518" target="_blank" rel="noopener"> Canvas Page </a>
-- <a href = "https://drive.google.com/file/d/1ys8AjFDG-7MuTYDdd4_afQD4Xe50czOL/view?usp=sharing](https://drive.google.com/file/d/1c24UBcY1u2EzkkJdwx-NnX3xMxEAsi3_/view?usp=sharing"  target="_blank" rel="noopener"> Course Syllabus </a>
+- <a href = "https://drive.google.com/file/d/1c24UBcY1u2EzkkJdwx-NnX3xMxEAsi3_/view?usp=sharing"  target="_blank" rel="noopener"> Course Syllabus </a>
 - <a href="https://www.gradescope.com/courses/1204707" target="_blank" rel="noopener">
     Gradescope
   </a>
