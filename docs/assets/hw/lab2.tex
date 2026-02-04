@@ -1,0 +1,102 @@
+\documentclass{cs0500}
+
+\lab{2}{Greedy Algorithms and Matroids}
+
+\begin{document}
+\maketitle
+
+The goal of this lab is for you to work collectively in proving some of the properties of Matroids as related to Greedy algorithms, whose statements were presented in class.
+\begin{itemize}
+    \item You can work in groups with up to three members. Please indicate the names of the three members below.  
+    \item Please focus on reasoning together toward structuring your arguments and you proofs. Completing of all the parts is not required for full credit. Furthermore, as we understand that there is limited time, we are asking you to focus on the main ideas for the proof and their general outline. If you are able to be detailed about all of the proofs, that is great, but not necessary: Focus on the main reasoning.
+    \item The TAs will be able to help you get going if you feel stuck on any of the points. 
+    \item Please use the pages here to submit an attempt at the proofs and turn themin to the TAs by the end of the session. If you need additional space, please ask the TAs. Scratch paper will be provided.
+\end{itemize}
+Please make the most of this opportunity to share ideas and your approaches to problems with your colleagues.\\
+
+
+\vspace{10mm}
+\noindent\textbf{Group members (first/last):}
+\begin{itemize}
+    \item \ 
+    \item \ 
+    \item \ 
+\end{itemize}
+\newpage
+\section{Matroid definition}
+A matroid is an ordered pair $M=(S,\ell)$ such that:
+\begin{itemize}
+    \item $S$ is a finite set.
+    \item \emph{Hereditary property:} $\ell$ is the family of ``\emph{independent subsets} of $S$'', such that if $B\in\ell$ and $A\subseteq B$, then $A\in \ell$.
+    \item \emph{Exchange property:} Of $A\in\ell$, $B\in \ell$, and $|A|<|B|$, then $\exists {x}\in B\setminus A$ such that $\{x\}\cup A\in \ell$. $x$ is called an ``\emph{extension}'' of $A$.
+\end{itemize}
+
+$A\in \ell$ is called a ``\emph{maximal independent subset}'' (or simply, ``\emph{maximal}'') if it has no extensions.
+
+\begin{problem}
+Give a proof for the following:\\
+\noindent\textbf{Lemma 0:}   Given a matroid $M=(S,\ell)$  all maximal independent subsets have the same cardinality.
+\end{problem}
+\noindent\emph{Proof.}
+\newpage
+
+\section{Weighted Matroids}
+A matroid $M=(S,\ell)$ is ``\emph{weighted}'' if it is associated with a weight function $w:S\rightarrow \mathbb{R}^+$.
+
+Weights are associated to the independent sets by summation 
+\begin{equation*}
+    \forall A\in \ell,\ w(A)=\sum_{x\in A} w(x).
+\end{equation*}
+$A\in \ell$ is a is a  maximum-weight subset if $w(A)\geq \max_{B\in \ell}w(B)$. Maximum-weight subsets are also called ``\emph{optimal}''. 
+
+Many problems that can be solved with a greedy approach can be formulated in terms of finding a maximum-weight independent subset in a weighted matroid.
+
+\section{The general \textsc{GREEDY} algorithm}
+Consider the following algorithm:
+
+We will work towards proving that given a weighted matroid $M=(S,\ell)$ with $w:S\rightarrow \mathbb{R}^+$, $GREEDY(M,w)$ yields an optimal maximum-weight independent subset from $\ell$.
+
+We will first introduce three lemmas which will then combine to prove the previous statement. Each lemma will formalize the fact that the problem of finding optimal maximum-weight subsets in a weighted matroid exhibits properties that make it amenable to the greedy strategy enacted by \textsc{GREEDY},
+
+\subsection{Matroids exhibit greedy choice}
+The following lemma captures the fact that the maximum weight element $x$ such that $\{x\}\in \ell$ is always part of an optimal (maximum weight) set in $\ell$.
+\begin{problem}
+Give a proof for the following:\\
+\noindent\textbf{Lemma 1:} Let $M=(S,\ell)$ be a weighted matroid with $w: S\rightarrow \mathbb{R}^+$ and assume that the elements of $S$ are sorted non-increasingly by weight. 
+Let $x\in S$ be the first (highest-weight) element of $S$ such that $\{{x}\}\in\ell$, then there exists an optimal (maximum-weight) $A\in\ell$ s.t. $x\in A$.
+\end{problem}
+\noindent\emph{Proof.}
+\newpage
+   \null
+\newpage
+\subsection{Temporal locality of GREEDY choices}
+The following lemma captures the fact that an element that cannot be selected immediately by GREEDY cannot ever be part of an optimal solution. That is, \textsc{GREEDY} never needs to ``go back and re-evaluate''
+\begin{problem}
+Give a proof for the following:\\
+\noindent\textbf{Lemma 2:} Let $M=(S,\ell)$ . If $\{x\}\notin \ell$, then $\{x\}$ cannot be an extension of any $A\in \ell$.
+\end{problem}
+\noindent\emph{Proof.}
+\clearpage
+\subsection{Optimal-substructure of Matroids}
+The following lemma captures the fact that an element that cannot be selected immediately by GREEDY cannot ever be part of an optimal solution
+\begin{problem}
+Give a proof for the following:\\
+\noindent\textbf{Lemma 3:} Given $M=(S,\ell)$ and $w: S\rightarrow \mathbb{R}^+$, let $x$ be the first element chosen by \textsc{GREEDY}. Finding the remaining elements of the optimal independent set corresponds to finding an optimal subset of the contraction of $M$ by $x$, $M'=(S',\ell')$ where:
+\begin{itemize}
+    \item $S'=\{y\in S\ s.t.\ \{x,y\}\in \ell\}$;
+    \item $\ell'=\{B\subseteq S\setminus \{x\}\ s.t.\ B\cup\{x\}\in\ell\}$.
+\end{itemize}
+\end{problem}
+\noindent\emph{Proof.}
+\newpage
+   \null
+\newpage
+\subsection{Completing of the proof of optimality of \textsc{GREEDY}}
+Complete the proof of the optimality of by combining the results of the lemmas you have proved so far. Think of how greedy strategies (and, \textsc{GREEDY} in particular) proceed by making a (temporally) local optimal choice and then continuing to solve a smaller instance of the problem. Induction should get you all the way there.
+\begin{problem}
+Give a proof for the following:\\
+\noindent\textbf{Theorem:} Given $M=(S,\ell)$ and $w: S\rightarrow \mathbb{R}^+$, \textsc{GREEDY}$(M,w)$ ) yields an optimal subset.
+\end{problem}
+\noindent\emph{Proof.}
+\end{document}
+
