@@ -30,7 +30,7 @@ Location and Times can be found on the [calendar](hours.md).<br>
     </tr>
     <tr>
       <td>2</td>
-      <td><a href="/spring-2026-website/assets/hw/hw2.tex" target="_blank">Writing Proofs</a></td>
+      <td>Writing Proofs</td>
       <td>2/4-2/6</td>
     </tr>
     <tr>
