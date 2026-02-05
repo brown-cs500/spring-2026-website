@@ -44,7 +44,7 @@ Linked <a href="../assets/hw/cs0500.cls" target="_blank" rel="noopener noreferre
     <tr>
       <td>2. Sorting and Selection</td>
       <td>1/28</td>
-      <td>2/4</td>
+      <td>2/6</td>
       <td><a href="/spring-2026-website/assets/hw/hw2.tex" target="_blank">LaTeX</a></td>
       <td><a href="https://github.com/brown-cs500/spring-2026-website/blob/main/docs/assets/hw/hw2.pdf?raw=1" target="_blank">PDF</a></td>
       <td>Solutions</td>
