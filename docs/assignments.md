@@ -47,7 +47,7 @@ Linked <a href="../assets/hw/cs0500.cls" target="_blank" rel="noopener noreferre
       <td>2/6</td>
       <td><a href="/spring-2026-website/assets/hw/hw2.tex" target="_blank">LaTeX</a></td>
       <td><a href="https://github.com/brown-cs500/spring-2026-website/blob/main/docs/assets/hw/hw2.pdf?raw=1" target="_blank">PDF</a></td>
-      <td>Solutions</td>
+      <td><a href="https://github.com/brown-cs500/spring-2026-website/blob/main/docs/assets/hw/hw2_sol.pdf?raw=1" target="_blank">Solutions</a></td>
     </tr>
     <tr>
       <td>3. Greedy Algorithms</td>
@@ -61,8 +61,8 @@ Linked <a href="../assets/hw/cs0500.cls" target="_blank" rel="noopener noreferre
       <td>4. Dynamic Programming</td>
       <td>2/11</td>
       <td>2/18</td>
-      <td>LaTeX</td>
-      <td>PDF</td>
+      <td><a href="/spring-2026-website/assets/hw/hw4.tex" target="_blank">LaTeX</a></td>
+      <td><a href="https://github.com/brown-cs500/spring-2026-website/blob/main/docs/assets/hw/hw4.pdf?raw=1" target="_blank">PDF</a></td>
       <td>Solutions</td>
     </tr>
     <tr>
