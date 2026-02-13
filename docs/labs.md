@@ -31,7 +31,7 @@ Location and Times can be found on the [calendar](hours.md).<br>
     <tr>
       <td>2</td>
       <td><a href="/spring-2026-website/assets/hw/lab2.tex" target="_blank">Writing Proofs</a></td>
-      <td>2/4-2/6</td>
+      <td>2/4 – 2/6</td>
     </tr>
     <tr>
       <td>--</td>
