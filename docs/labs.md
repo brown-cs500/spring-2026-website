@@ -34,6 +34,11 @@ Location and Times can be found on the [calendar](hours.md).<br>
       <td>2/4-2/6</td>
     </tr>
     <tr>
+      <td>--</td>
+      <td><a href="https://classroom.github.com/a/By5-j7wK" target="_blank" rel="noopener noreferrer"> Divide and Conquer Mini-Lab</a></td>
+      <td>Optional</td>
+    </tr>
+    <tr>
       <td>3</td>
       <td><a href="https://github.com/brown-cs500/spring-2026-website.git" taget="_blank" rel="noopener noreferrer"> Dynamic Programming</a></td>
       <td>2/18 – 2/20</td>
