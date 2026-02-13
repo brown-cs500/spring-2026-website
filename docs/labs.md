@@ -30,12 +30,12 @@ Location and Times can be found on the [calendar](hours.md).<br>
     </tr>
     <tr>
       <td>2</td>
-      <td>Writing Proofs</td>
+      <td><a href="/spring-2026-website/assets/hw/lab2.tex" target="_blank">Writing Proofs</a></td>
       <td>2/4-2/6</td>
     </tr>
     <tr>
       <td>3</td>
-      <td>Dynamic Programming</td>
+      <td><a href="https://github.com/brown-cs500/spring-2026-website.git" taget="_blank" rel="noopener noreferrer"> Dynamic Programming</a></td>
       <td>2/18 – 2/20</td>
     </tr>
     <tr>
