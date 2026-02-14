@@ -1,0 +1,88 @@
+.staff-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 360px));
+  justify-content: center;
+  gap: 1.25rem;
+}
+
+.staff-card {
+  width: 100%;
+  max-width: 360px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  padding: 1rem;
+  border-radius: 0.6rem;
+  background: var(--md-default-bg-color);
+  box-shadow: var(--md-shadow-z2);
+}
+
+.staff-card-text {
+  width: 100%;
+}
+
+/* Force Material tables to actually obey widths */
+.md-typeset__table {
+  width: 100%;
+}
+
+.md-typeset__table table {
+  width: 100%;
+  table-layout: fixed;
+}
+
+/* Center top-level navigation tabs */
+.md-header__topic + .md-tabs {
+  justify-content: center;
+}
+
+/* Ensure the tab list itself is centered */
+.md-tabs__list {
+  justify-content: center;
+}
+
+/* Announcement bar background */
+.md-banner {
+  background-color: #980065; /* example: dark red */
+  color: white;
+}
+
+.md-banner a {
+  color: rgb(255, 251, 0);
+}
+
+/* Full-width centered iframe for MkDocs Material */
+.iframe-container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.iframe-container iframe {
+  display: block;
+  width: 100%;
+  max-width: 1200px; /* controls size — adjust if needed */
+  height: 1200px;
+  margin: 0 auto;
+  border: none;
+}
+
+/* Keep top tabs visible until a narrower viewport.
+   Material’s default cutoff is ~76.1875em (~1219px).
+   This override pushes the cutoff down to 64em (~1024px). */
+
+@media screen and (max-width: 40em) {
+  /* At <= 1024px, switch to hamburger/drawer */
+  .md-tabs {
+    display: none;
+  }
+}
+
+/* At > 1024px, ensure tabs are shown */
+@media screen and (min-width: 40.001em) {
+  .md-tabs {
+    display: block;
+  }
+}
