@@ -40,7 +40,7 @@ Location and Times can be found on the [calendar](hours.md).<br>
     </tr>
     <tr>
       <td>3</td>
-      <td><a href="https://github.com/brown-cs500/spring-2026-website.git" taget="_blank" rel="noopener noreferrer"> Dynamic Programming</a></td>
+      <td><a href="https://classroom.github.com/a/JmZXmEfc" taget="_blank" rel="noopener noreferrer"> Dynamic Programming</a></td>
       <td>2/18 – 2/20</td>
     </tr>
     <tr>
