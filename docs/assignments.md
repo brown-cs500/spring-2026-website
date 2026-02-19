@@ -69,8 +69,8 @@ Linked <a href="../assets/hw/cs0500.cls" target="_blank" rel="noopener noreferre
       <td>5. Divide and Conquer</td>
       <td>2/18</td>
       <td>2/25</td>
-      <td>LaTeX</td>
-      <td>PDF</td>
+      <td><a href="/spring-2026-website/assets/hw/hw5.tex" target="_blank">LaTeX</a></td>
+      <td><a href="https://github.com/brown-cs500/spring-2026-website/blob/main/docs/assets/hw/hw5.pdf?raw=1" target="_blank">PDF</a></td>
       <td>Solutions</td>
     </tr>
     <tr>
