@@ -1,0 +1,47 @@
+\documentclass{cs0500}
+
+\hwk{6}{Data Structures - Hashing}{February 25, 2026 at 11:59 pm}
+
+\begin{document}
+\maketitle
+\begin{problem}[Perfect Hashing Months]
+    A \textit{perfect hash function} is a hash function that has no collisions in its finite domain. Devise a hash function from string to integer that is perfect on the subdomain of lowercase month names, \verb|january...december|, when its outputs are taken modulo 64; that is, $\forall m_1, m_2. \; m_1 \ne m_2 \implies h(m_1) \ne h(m_2) \mod{64}$. Do not hardcode hash value or otherwise give specific strings special treatment. Demonstrate that your hash function is perfect on the subdomain by giving the hash value of each month name modulo 64.
+
+    Would your hash function be suitable for use on the domain of all strings? Why or why not?
+\end{problem}
+\newpage
+
+\begin{problem}
+    The CS 500 TAs want to randomly assign $2n$ students to $n$ group projects. To not appear biased, the TAs
+    will publish a family $\mathcal{H}$ of functions first, then ask the students each choose an ID: a postive integer less than $u$, with $u >> 2n$. After
+    students choose IDs, the TAs will choose a hash function uniformly at random from $\mathcal{H}$ to determine group assignment. 
+
+    Two CS 500 students, Alice and Bob, wants to be groupmates. For each hash family below, show that either:
+\begin{enumerate}
+    \item Alice and Bob can choose IDs $k_1$ and $k_2$ so as to guarantee that they’ll be groupmates, or
+    \item prove that no such choice is possible and compute the highest probability they could possibly
+achieve of being roommates.
+\end{enumerate}
+\begin{enumerate}[(a)]
+    \item $\mathcal{H} = \{h_{ab}(k) = (ak + b) \mod n ~|~ a, b \in \{0, . . . , n - 1\} \text{ and } a \neq 0\}$
+    \item $\mathcal{H} = \{h_{ab}(k) = (\lfloor \frac{kn}{u}\rfloor + a) \mod n ~|~ a \in \{0, . . . , u-1\} \text{ and } a \neq 0\}$
+    \item $\mathcal{H} = \{h_{ab}(k) = ((\lfloor \frac{kn}{u}\rfloor + a) \mod p) \mod n ~|~ a \in \{0, . . . , u-1\} \text{ and } a \neq 0\}$ for fixed prime $p > u$. 
+\end{enumerate}
+\end{problem}
+\newpage
+
+\begin{problem}
+There are $n$ marbles rolling along a linear track. They each are at given inches away from the start of the track (inch 0) and are all traveling to the end of the track which is at inch $end$. You are given two arrays: (position) and (speed). Both are of length $n$ so position[i] and speed[i] denote the starting position and speed of the marbles respectively. 
+
+    
+Since the track is narrow, marbles cannot roll pass other marbles so when a faster marble catches up to a slower marble, they will travel together at the speed of the slower marble. Since they cannot pass each other a group of marbles is any number of marbles (including 1) that reach the end of the track at the same time. You are tasked with figuring out the number of groups of marbles that arrive at the end of the track. 
+    
+\begin{enumerate}
+    \item Devise an efficient method to find the number of groups of marbles we expect to see at the end of the track, given all of their starting positions and starting speeds. 
+    
+    \item Justify the runtime and correctness of your scheme.
+\end{enumerate}
+\end{problem}
+
+\end{document}
+
