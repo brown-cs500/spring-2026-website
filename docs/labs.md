@@ -46,7 +46,7 @@ Location and Times can be found on the [calendar](hours.md).<br>
     <tr>
       <td>4</td>
       <td><a href="https://classroom.github.com/a/DV39EG9s" target="_blank" rel="noopener noreferrer"> Hashing</a></td>
-      <td>3/3 - 3/5</td>
+      <td>3/4 - 3/6</td>
     </tr>
     <tr>
       <td>5</td>
