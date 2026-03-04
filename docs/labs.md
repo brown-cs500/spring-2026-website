@@ -40,13 +40,13 @@ Location and Times can be found on the [calendar](hours.md).<br>
     </tr>
     <tr>
       <td>3</td>
-      <td><a href="https://classroom.github.com/a/JmZXmEfc" taget="_blank" rel="noopener noreferrer"> Dynamic Programming</a></td>
+      <td><a href="https://classroom.github.com/a/JmZXmEfc" target="_blank" rel="noopener noreferrer"> Dynamic Programming</a></td>
       <td>2/18 – 2/20</td>
     </tr>
     <tr>
       <td>4</td>
-      <td>Hashing</td>
-      <td>3/3-3/5</td>
+      <td><a href="https://classroom.github.com/a/DV39EG9s" target="_blank" rel="noopener noreferrer"> Hashing</a></td>
+      <td>3/3 - 3/5</td>
     </tr>
     <tr>
       <td>5</td>
