@@ -93,8 +93,8 @@ Linked <a href="../assets/hw/cs0500.cls" target="_blank" rel="noopener noreferre
       <td>8. Graph Algorithms I</td>
       <td>4/1</td>
       <td>4/8</td>
-      <td>LaTeX</td>
-      <td>PDF</td>
+      <td><a href="/spring-2026-website/assets/hw/hw8.tex" target="_blank">LaTeX</a></td>
+      <td><a href="https://github.com/brown-cs500/spring-2026-website/blob/main/docs/assets/hw/hw8.pdf?raw=1" target="_blank">PDF</a></td>
       <td>Solutions</td>
     </tr>
     <tr>
