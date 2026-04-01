@@ -50,7 +50,7 @@ Location and Times can be found on the [calendar](hours.md).<br>
     </tr>
     <tr>
       <td>5</td>
-      <td>Data Structures</td>
+      <td><a href = "https://github.com/brown-cs500-s26/brown-cs500-s26-classroom-lab-5-trees" target="_blank" rel="noopener noreferrer"> Trees </td>
       <td>4/1 – 4/3</td>
     </tr>
     <tr>
