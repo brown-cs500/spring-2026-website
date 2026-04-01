@@ -91,24 +91,24 @@ Linked <a href="../assets/hw/cs0500.cls" target="_blank" rel="noopener noreferre
     </tr>
     <tr>
       <td>8. Graph Algorithms I</td>
-      <td>tbd</td>
-      <td>tbd</td>
+      <td>4/1</td>
+      <td>4/8</td>
       <td>LaTeX</td>
       <td>PDF</td>
       <td>Solutions</td>
     </tr>
     <tr>
       <td>9. Graph Algorithms II</td>
-      <td>tbd</td>
-      <td>tbd</td>
+      <td>4/8</td>
+      <td>4/15</td>
       <td>LaTeX</td>
       <td>PDF</td>
       <td>Solutions</td>
     </tr>
     <tr>
       <td>10. Time Complexity and NP, NP-Hardness</td>
-      <td>tbd</td>
-      <td>tbd</td>
+      <td>4/15</td>
+      <td>4/22</td>
       <td>LaTeX</td>
       <td>PDF</td>
       <td>Solutions</td>

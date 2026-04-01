@@ -71,7 +71,7 @@
     <div class="staff-card-text">
       <h3>Hang Nguyen</h3>
       <p><strong>UTA</strong> — hnguy112</p>
-      <p>bio here</p>
+      <p>senior, cs. Ask me about world literature, cooking, pickleball, and seafood!</p>
     </div>
   </div>
 
