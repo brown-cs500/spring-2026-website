@@ -50,7 +50,7 @@ Location and Times can be found on the [calendar](hours.md).<br>
     </tr>
     <tr>
       <td>5</td>
-      <td>Data Structures</td>
+      <td><a href="https://classroom.github.com/a/uDVUxFCw" target="_blank" rel="noopener noreferrer"> Data Structures</a></td>
       <td>4/1 – 4/3</td>
     </tr>
     <tr>
