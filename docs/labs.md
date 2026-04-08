@@ -55,7 +55,7 @@ Location and Times can be found on the [calendar](hours.md).<br>
     </tr>
     <tr>
       <td>6</td>
-      <td>Graph Algorithms</td>
+      <td><a href = "https://classroom.github.com/a/1pMxo1xn" target="_blank" rel="noopener noreferrer"> Graph Algorithms</td>
       <td>4/8 – 4/10</td>
     </tr>
     <tr>
