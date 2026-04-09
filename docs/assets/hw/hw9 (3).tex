@@ -1,0 +1,56 @@
+\documentclass{cs0500}
+
+\hwk{9}{Graph Algorithms - Part 2}{April 15, 2026 at 11:59 pm}
+
+\begin{document}
+\maketitle
+
+
+\begin{problem}
+    We study the relationship between maximum matchings and minimum vertex covers in bipartite graphs.
+    \\ \textbf{Definition: } A vertex cover of an undirected graph $G = (V, E)$ is a subset of nodes $C \subseteq V$ such that every edge in $E$ has at least one endpoint in $C$. 
+    \\ \textbf{König’s Theorem.} In any bipartite graph, the size of a minimum vertex cover equals the size of a maximum matching.
+
+    \medskip 
+    Let $G = (L \cup R, E)$ be a bipartite graph, where $L$ and $R$ are left and right nodes, respectively. Let $M^*$ be a maximum matching in $G$. Let $C^*$ be a minimum vertex cover of $G$. By part (a), $|C^*| \ge |M^*|$. To show $|C^*| \le |M^*|$, we construct a vertex cover $C$ of size $|M^*|$, and hence $|C^*| \le |C| = |M^*|$.
+    \medskip 
+    \\ Define a directed graph $G'=(V',E')$ with $V'=V\cup\{s,t\}$ as follows:
+    \begin{itemize}
+    \item $(s, u)$ for all unmatched $u \in L$.
+    \item $(v, t)$ for all unmatched $v \in R$.
+    \item $(u, v)$ for all $(u, v) \in (E \setminus M^*)$ with $u \in L$ and $v \in R$.
+    \item $(v, u)$ for all $(u, v) \in M^*$ with $u \in L$ and $v \in R$.
+    \end{itemize}
+
+    There is a $s$-to-$t$ path in $G'$ if and only if there is an augmenting path with respect to $M^*$ in $G$.
+
+    \textbf{Lemma 1. } Let $S$ be the set of nodes reachable from s in $G'$. Then $C = (L \ S) \cup (R \cap S)$ is a vertex cover of $G$ and $\vert C \vert = \vert M^* \vert$.
+    \begin{enumerate}
+        \item [(a)] Fix any undirected graph $G$. Let $M$ be a matching in $G$. Let $C$ be a vertex cover of $G$. Prove that $\vert C \vert \geq \vert M \vert$. (Hint: Can one node in $C$ cover multiple edges in $M$?)
+        \item [(b)] Prove Lemma 1.
+    \end{enumerate}
+\end{problem}
+\begin{solution}
+    
+\end{solution}
+
+\newpage
+\begin{problem}
+Two departments jointly host a PhD visit day. Each of the $s$ students requests meetings with two faculty members: one from Department A and one from Department B. A faculty member may meet with any number of students. You must select a minimum-size set of faculty such that every student meets with at least one of their requested faculty members. The input consists of integers $f>0$ and $s>0$, where $f$ is the number of faculty in each department and $s$ is the number of students, followed by $s$ pairs $(a_i,b_i)$, where student $i$ requests faculty $a_i$ from Department A and faculty $b_i$ from Department B. Design an algorithm that outputs the minimum number of faculty required. Briefly describe your algorithm. Your algorithm should run in $O(f + s)$ time. 
+\\ \emph{Hint: Use the bipartite graph construction and vertex-cover characterization from the previous problem.}
+
+\end{problem}
+\begin{solution}
+    
+\end{solution}
+\newpage 
+\begin{problem}
+Given a flow network graph $G$ with $n$ nodes and $m$ edges, assume you are given a maximum flow assignment. Propose an algorithm that finds a minimum capacity cut in time $O(m)$.
+\end{problem}
+\begin{solution}
+    
+\end{solution}
+
+
+
+\end{document}
