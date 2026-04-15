@@ -60,7 +60,7 @@ Location and Times can be found on the [calendar](hours.md).<br>
     </tr>
     <tr>
       <td>7</td>
-      <td>NP-Hard and NP-Complete Problems</td>
+      <td><a href="/spring-2026-website/assets/hw/lab7.tex" target="_blank">NP-Hard and NP-Complete Problems</a></td>
       <td>4/15 – 4/17</td>
     </tr>
   </tbody>
