@@ -1,0 +1,74 @@
+\documentclass{cs0500}
+
+\hwk{10}{Complexity Theory}{April 23, 2026 at 11:59 pm}
+
+\begin{document}
+\maketitle
+\begin{problem}
+Consider the decision problem:
+\begin{equation*}
+    \textsf{BF}_k = \{\phi \mid \phi \text{ is a satisfiable Boolean formula in \textsf{cnf} and each variable appears at most $k$ times}\}
+\end{equation*}
+defined as the set of its YES-instances.
+\begin{enumerate}[(A)]
+    \item Show that $BF_2\in P$
+    \item Show that $BF_{3}$ is in \textsf{NP}-complete.
+\end{enumerate}
+\end{problem}
+\begin{solution}
+    % Your solution here!
+\end{solution}
+
+\newpage
+
+% \begin{problem}
+% Consider the languages:
+% \begin{align*}
+%     \textsf{TFSAT}_k &= \{\phi \mid \phi \text{ is a Boolean formula in \textsf{CNF} with k elements in each clause.} \\
+%     & \text{There exists an assignment such that in each clause,} \\
+%     & \text{there is at least one true and one false literal}\}
+% \end{align*}
+% Show that $TFSAT_4$ is NP-complete. 
+% \end{problem}
+\begin{problem}
+Let $S= \{ x_1, \ldots x_n \}$ be a set of $n$ distinct positive integers, and let $t$ also be a positive integer.  
+
+Given as input $S$ and $t$, the goal of the ``\emph{Subset Sum problem}'' ($SUBSET-SUM$) is to decide whether there exists a subset $S'$ of $S$ such that the sum of the values of its members is exactly $t$. 
+
+Alternatively, as the set of YES-instances, we have
+
+\[ \mbox{SUBSET-SUM}  = \{ (S,t) \mid \mbox{ some subset of $S$ sums to exactly
+$t$}  \} 
+\]
+\begin{enumerate}[(a)]
+    \item Show that $SUBSET-SUM \in NP$.
+    \item $SUBSET-SUM$ is in fact $NP$-hard. However, for the sake of mental exercise, suppose we instead had an algorithm $A$ that could, given as input a set $S$ and $t$, solve the SUBSET-SUM problem in polynomial time. Explain how to use $A$ to construct a new polynomial time algorithm $B$ that, given as input a set $Y=\{ y_1, \ldots y_n \}$ of $n$ distinct positive integers, and a positive integer value $u$  either returns a subset of $Y$ such the sum of its elements is exactly $u$, or if no such set exists communicates that as the output.
+    \begin{itemize}
+        \item Provide a description of $B$.
+        \item Prove the correctness of $B$.
+        \item Provide an analysis of the running time of $B$ showing that it is polynomial.
+    \end{itemize}
+\end{enumerate}
+\end{problem}
+\begin{solution}
+    % Your solution here!
+\end{solution}
+
+\newpage
+
+\begin{problem}
+Given a graph $G=(V,E)$, we say that subset $V'\subseteq V$ is an ``\emph{Even degree $k$-clique}" in $G$ if:
+\begin{itemize}
+    \item $|V'|=k$,
+    \item For all pairs $v_i,v_j\in V'$, $(v_i,v_j)\in E$ (i.e., $V'$ is a $k$-clique).
+    \item Every vertex $v_i\in V'$ has even degree with respect to the entirety of $G$, that is, there are an even number of edges in $E$ for which $v_i$ is an endpoint.
+\end{itemize}
+Let $EDCLIQUE$ be the decision problem that, given as input instance an undirected graph $G$ and a positive integer $k$, decides whether $G$ includes an even-degree $k$-clique or not.
+
+Show that $\mathit{EDCLIQUE}$ is NP-complete.
+\end{problem}
+
+\begin{solution}
+    % Your solution here!
+\end{solution}
+\end{document}
