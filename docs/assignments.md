@@ -71,7 +71,7 @@ Linked <a href="../assets/hw/cs0500.cls" target="_blank" rel="noopener noreferre
       <td>2/27</td>
       <td><a href="/spring-2026-website/assets/hw/hw5.tex" target="_blank">LaTeX</a></td>
       <td><a href="https://github.com/brown-cs500/spring-2026-website/blob/main/docs/assets/hw/hw5.pdf?raw=1" target="_blank">PDF</a></td>
-      <td><a href="https://github.com/brown-cs500/spring-2026-website/blob/main/docs/assets/hw/hw5_soll.pdf?raw=1" target="_blank">Solutions</a></td>
+      <td><a href="https://github.com/brown-cs500/spring-2026-website/blob/main/docs/assets/hw/hw5_sol.pdf?raw=1" target="_blank">Solutions</a></td>
     </tr>
     <tr>
       <td>6. Hashing</td>
@@ -79,7 +79,7 @@ Linked <a href="../assets/hw/cs0500.cls" target="_blank" rel="noopener noreferre
       <td>3/11</td>
       <td><a href="/spring-2026-website/assets/hw/hw6.tex" target="_blank">LaTeX</a></td>
       <td><a href="https://github.com/brown-cs500/spring-2026-website/blob/main/docs/assets/hw/hw6.pdf?raw=1" target="_blank">PDF</a></td>
-      <td><a href="https://github.com/brown-cs500/spring-2026-website/blob/main/docs/assets/hw/hw6_soll.pdf?raw=1" target="_blank">Solutions</a></td>
+      <td><a href="https://github.com/brown-cs500/spring-2026-website/blob/main/docs/assets/hw/hw6_sol.pdf?raw=1" target="_blank">Solutions</a></td>
     </tr>
     <tr>
       <td>7. Data Structures</td>
@@ -87,7 +87,7 @@ Linked <a href="../assets/hw/cs0500.cls" target="_blank" rel="noopener noreferre
       <td>4/11</td>
       <td><a href="/spring-2026-website/assets/hw/hw7_files.zip" target="_blank">LaTeX</a></td>
       <td><a href="https://github.com/brown-cs500/spring-2026-website/blob/main/docs/assets/hw/hw7.pdf?raw=1" target="_blank">PDF</a></td>
-      <td><a href="https://github.com/brown-cs500/spring-2026-website/blob/main/docs/assets/hw/hw7_soll.pdf?raw=1" target="_blank">Solutions</a></td>
+      <td><a href="https://github.com/brown-cs500/spring-2026-website/blob/main/docs/assets/hw/hw7_sol.pdf?raw=1" target="_blank">Solutions</a></td>
     </tr>
     <tr>
       <td>8. Graph Algorithms I</td>
@@ -95,7 +95,7 @@ Linked <a href="../assets/hw/cs0500.cls" target="_blank" rel="noopener noreferre
       <td>4/8</td>
       <td><a href="/spring-2026-website/assets/hw/hw8.tex" target="_blank">LaTeX</a></td>
       <td><a href="https://github.com/brown-cs500/spring-2026-website/blob/main/docs/assets/hw/hw8.pdf?raw=1" target="_blank">PDF</a></td>
-      <td><a href="https://github.com/brown-cs500/spring-2026-website/blob/main/docs/assets/hw/hw8_soll.pdf?raw=1" target="_blank">Solutions</a></td>
+      <td><a href="https://github.com/brown-cs500/spring-2026-website/blob/main/docs/assets/hw/hw8_sol.pdf?raw=1" target="_blank">Solutions</a></td>
     </tr>
     <tr>
       <td>9. Graph Algorithms II</td>
