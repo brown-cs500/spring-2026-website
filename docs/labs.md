@@ -25,42 +25,42 @@ Location and Times can be found on the [calendar](hours.md).<br>
     <tbody>
     <tr>
       <td>1</td>
-      <td><a href="https://classroom.github.com/a/0LKPZZoT" target="_blank" rel="noopener noreferrer"> Sorting</a></td>
+      <td>Sorting</td>
       <td>1/28 – 1/30</td>
     </tr>
     <tr>
       <td>2</td>
-      <td><a href="/spring-2026-website/assets/hw/lab2.tex" target="_blank">Writing Proofs</a></td>
+      <td>Writing Proofs</td>
       <td>2/4 – 2/6</td>
     </tr>
     <tr>
       <td>--</td>
-      <td><a href="https://classroom.github.com/a/By5-j7wK" target="_blank" rel="noopener noreferrer"> Divide and Conquer Mini-Lab</a></td>
+      <td> Divide and Conquer Mini-Lab</td>
       <td>Optional</td>
     </tr>
     <tr>
       <td>3</td>
-      <td><a href="https://classroom.github.com/a/JmZXmEfc" target="_blank" rel="noopener noreferrer"> Dynamic Programming</a></td>
+      <td> Dynamic Programming</td>
       <td>2/18 – 2/20</td>
     </tr>
     <tr>
       <td>4</td>
-      <td><a href="https://classroom.github.com/a/DV39EG9s" target="_blank" rel="noopener noreferrer"> Hashing</a></td>
+      <td> Hashing</td>
       <td>3/4 - 3/6</td>
     </tr>
     <tr>
       <td>5</td>
-      <td><a href = "https://classroom.github.com/a/uDVUxFCw" target="_blank" rel="noopener noreferrer"> Trees </td>
+      <td> Trees </td>
       <td>4/1 – 4/3</td>
     </tr>
     <tr>
       <td>6</td>
-      <td><a href = "https://classroom.github.com/a/1pMxo1xn" target="_blank" rel="noopener noreferrer"> Graph Algorithms</td>
+      <td> Graph Algorithms</td>
       <td>4/8 – 4/10</td>
     </tr>
     <tr>
       <td>7</td>
-      <td><a href="/spring-2026-website/assets/hw/lab7.tex" target="_blank">NP-Hard and NP-Complete Problems</a></td>
+      <td> NP-Hard and NP-Complete Problems</td>
       <td>4/15 – 4/17</td>
     </tr>
   </tbody>
