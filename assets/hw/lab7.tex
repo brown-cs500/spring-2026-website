@@ -1,0 +1,112 @@
+\documentclass{cs0500}
+
+\lab{7}{The class coNP \\and its relation with NP}
+
+\begin{document}
+\maketitle
+
+The goal of this lab is for you to work collectively in proving some results that will provide practice on proving results on the complexity of decision problems. It will also be an opportunity to introduce some new concepts: The class coNP, coNP-complete problems, and we will prove that some problems are both NP-hard and coNP-hard.
+\begin{itemize}
+    \item You can work in groups with up to three members. Please indicate the names of the three members below.  
+    \item Please focus on reasoning together toward structuring your arguments and you proofs. Completing of all the parts is not required for full credit. Furthermore, as we understand that there is limited time, we are asking you to focus on the main ideas for the proof and their general outline. If you are able to be detailed about all of the proofs, that is great, but not necessary: Focus on the main reasoning.
+    \item The TAs will be able to help you get going if you feel stuck on any of the points. 
+    \item Please use the pages here to submit an attempt at the proofs and turn them in to the TAs by the end of the session. If you need additional space, please ask the TAs. Scratch paper will be provided.
+\end{itemize}
+Please make the most of this opportunity to share ideas and your approaches to problems with your colleagues.\\
+
+
+\vspace{10mm}
+\noindent\textbf{Group members (first/last):}
+\begin{itemize}
+    \item \ 
+    \item \ 
+    \item \ 
+\end{itemize}
+\newpage
+\section{The class coNP}
+During the lecture, we stated that an alternative way of defining a decision problem $P$ is as the set of its YES-instances. This interpretation yields a natural way of studying the ``\emph{complementary}'' decision problem to $A$, denoted as $\bar{A}$, as the set of NO-instances of $A$. 
+
+For example, recall $SAT$, the Boolean satisfiability problem, identified by the set of its YES-instances, as the set of satisfiable Boolean formulas. Its complement problem $\overline{SAT}$ will be the set of instances that are not satisfiable Boolean formulas. Note that there is a subtlety here. It is NOT \emph{just} the set of unsatisfiable Boolean formulas.
+
+\begin{problem}
+Give a proof for the following:\\
+
+\noindent\textbf{Lemma 1:}   Given a decision problem $A$, $\overline{({\overline{A}})}=A$
+\end{problem}
+\noindent\emph{Proof.}
+\newpage
+
+\begin{problem}
+Consider a variation of the verifier presented during lectures to prove $SAT\in NP$, which receives as input a Boolean expression $\phi$ and a certificate $c$ corresponding to a possible value assignment to the Boolean variables in $\phi$: The verifier evaluates the input formula $\phi$ according to the certificate $c$. If $\phi$ evaluates to FALSE, the input is accepted, otherwise it is rejected. Prove this proposed verifier is not a correct polynomial-time verifier for $\overline{SAT}$.
+\end{problem}
+\noindent\emph{Proof.}
+\newpage
+For several problems, such as $SAT^c$, there is no known proof on whether they are members in $NP$. Still given that it is know that their complement is in $NP$, there apperars a natural opportunity to formalize a useful complexity class:
+$$
+coNP=\{A\text{ s.t. }A\text{ is a decision problem and }\bar{A}\in NP\}
+$$
+Please take a moment to discuss the definition with your collaborators.
+
+At this point in time, it is not known whether $NP=coNP$ or not. It is another crucial open problem in Complexity Theory. However, we can  state an important result regarding the intersection between these two classes:
+\begin{problem}
+Give a proof for the following:\\
+\noindent\textbf{Lemma 2:}   $P\subseteq ( NP\cap coNP)$
+\end{problem}
+\noindent\emph{Proof.}
+\newpage
+
+\section{coNP Hardness and Completeness}
+We have a definition equivalent to that of $NP$-hard and $NP$-complete problems for the class $coNP$:\\
+
+\noindent\textbf{Definition 1:} A decision problem $A$ is coNP-hard if for any $L\in coNP$, $L\leq_p A$.\\
+
+\noindent\textbf{Definition 2:} A decision problem $A$ is coNP-complete if:
+\begin{itemize}
+    \item $A\in coNP$, (membership).
+    \item $A$ is $coNP$-hard (hardness).
+\end{itemize}
+
+The following relation ties $NP$-complete problems with their complements, showing that they are $coNP$-complete.
+\begin{problem}
+\noindent\textbf{Lemma 3:} $A$ is NP-complete $\iff \bar{A}$ is coNP-complete.
+\end{problem}
+\noindent\emph{Proof.}
+\newpage
+
+\section{The $MAXCLIQUE$ problem}
+Interestingly, some problems are strongly related to the ``$NP$ vs $coNP$'' question in the sense that if they were to be shown to be members on $NP$ it would imply that 
+$NP=coNP$. In the remainder of the lab, you will work on one of these called $MAXCLIQUE$.\\
+
+Given an undirected graph $G=(V,E)$ and a positive integer $k$ we say that the maximum size of a clique in $G$ is $k$ if $G$ includes a $k$-clique, but not a $(k+1)$-clique.\\
+
+In the $MAXCLIQUE$ problem, given as input an undirected graph $G=(V,E)$, represented as an adjacency matrix, and a positive integer $k$, the objective is to decide whether $k$ is the maximum cardinality of any clique in $G$.
+
+Alternatively, $MAXCLIQUE$ is the set of YES-instances, that is, the set of pairs $G,k$ such that $k$ is the maximum cardinality of any clique in $G$.
+
+This problem is clearly related to the $CLIQUE$ problem we presented during lecture:
+
+\begin{problem}
+Give a proof for the following:\\
+\noindent\textbf{Lemma 4:} $3SAT\leq_p MAXCLIQUE$. \\Do not reinvent the wheel! Consider a modification of the reduction seen in class, so that given a Boolean formula $\phi$, the reduction yields a pair $f(\phi)=G_\phi,k$ where $G_\phi$ is constructed exactly as in the proof seen during lecture, and $k$ is the number of clauses in $\phi$.
+\end{problem}
+\noindent\emph{Proof.}
+\newpage
+\ 
+\newpage
+But interestingly, a very similar reduction will also allow us to prove that $MAXCLIQUE$ (NOT its complement) is $coNP$-hard.  
+\begin{problem}
+Consider the reduction proposed in Problem 5. Argue that the graph $G_\phi$ constructed according to it is such that if $\phi$ is not satisfiable, then $G_\phi$ does not include any clique of size equal to the number of clauses of $\phi$.
+\end{problem}
+\noindent\emph{Proof.}
+\newpage
+\begin{problem}Give a proof for the following:\\
+\noindent\textbf{Lemma 5:} $\overline{3SAT}\leq_p MAXCLIQUE$. You can reuse most of the reduction you worked with in Problem 5: The reduction yields a pair $f(\phi)=G_\phi,k-1$ where $k$ is the number of clauses in $\phi$. If only there was a way to guarantee that $G_\phi$ always includes a $k-1$ clique...(extra vertices and edges are cheap :) )
+\end{problem}
+\noindent\emph{Proof.}
+\newpage
+\section{Conclusion - This part is not mandatory...but nice!}
+Finally, as promised we can argue that if $MAXCLIQUE\in NP$, then $NP=coNP$:
+\begin{problem}Give a proof for the following:\\
+\noindent\textbf{Lemma 6:} $MAXCLIQUE\in NP\implies NP=coNP$.
+\end{problem}
+\end{document}

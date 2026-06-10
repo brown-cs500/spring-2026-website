@@ -1,0 +1,81 @@
+\documentclass{cs0500}
+
+\hwk{5}{Dynamic Programming}{February 25, 2026 at 11:59 pm}
+
+\begin{document}
+
+\maketitle
+
+\begin{problem}
+\setlength{\parindent}{0pt}
+You are given a roll (array) of $n$ magical coins. Each coin has an initial value $c_i$ which increases at each time step linearly. Therefore, at time step $t_j$ the coin has a value of $c_ij$.
+
+\medskip
+
+You want to sell the coins to maximize your total profit, however, you are only able to sell the coins one at a time. Furthermore, you are only able to sell the coins from either end of the roll of coins.
+
+\begin{enumerate}[\hspace{1cm}(a)]
+    \item
+    You initially spring for a greedy approach to sell your magical coins, i.e. at each time step you compare both ends of the array and sell the coin with least value. Is this strategy flawed? Explain your reasoning.
+    \item Design an algorithm which determines the optimal order to sell the magical coins to maximize profit, given that you know the starting value of each coin. Your algorithm should run in $O(n^2)$ time. Provide a proof of correctness for your algorithm, and justify its runtime and memory utilization.
+\end{enumerate}
+\end{problem}
+
+\begin{solution}
+% Your solution here!
+\end{solution}
+\newpage
+\begin{problem}
+    You are organizing a film festival, and you must select a schedule of screenings that maximizes box office revenue. Each film has a scheduled start time $startTime[i]$, an end time $endTime[i]$, and an associated box office return $profit[i]. $
+
+    \medskip
+
+    However, some films overlap in time, and viewers cannot attend two overlapping screenings. Screenings may be back-to-back: if one film ends at a time $X$, another may start exactly at time $X$.
+
+    \begin{enumerate}
+        \item[(a)] Design a \textbf{dynamic programming} algorithm that determines the maximum total box office revenue you can achieve without overlapping screenings. Your algorithm should run in worst case $\mathcal{O}(n^2)$ time (but could be faster \:))
+        \item[(b)] Provide a proof of correctness of your algorithm
+        \item[(c)] State an upper bound to the worst-case running time and memory utilization. Provide proof for your statements.
+        \item[(d)] Your festival has upgraded, and you may now host two movies at a time! How would your proposed solution change? Explain the modifications to your algorithm and informally argue why the modification is correct and what the new worst-case running time is.
+    \end{enumerate}
+\end{problem}
+
+% \newpage
+% \begin{problem}
+%     Oh no! You walked into the 4th floor of the CIT building and got caught in a maze while trying to find the staircase. 
+
+%     \medskip
+
+%     The floor plan is given as an $m \times n $ grid. Entering room (i,j) causes the professor to stop you to talk for $grid[i][j]$ minutes. You start in the top-left room and want to reach the staircase in the bottom-right room as quickly as possible. From any room, you may only move right or down. 
+    
+%     \begin{enumerate}
+%         \item[(a)] You initially propose a greedy strategy to escape the maze: at each room, you move to the adjacent room (right or down) with the professor who will speak for the fewest minutes. Is this strategy always optimal? Explain your reasoning.
+
+%         \item[(b)] Provide a \textbf{dynamic programming} algorithm that determines the minimum total time required to reach the staircase. Your algorithm should run in $O(mn)$ time. Provide a proof of correctness for your algorithm, and justify its runtime and memory utilization.
+
+%     \end{enumerate}
+% \end{problem}
+\newpage
+\begin{problem}
+    You are an archaeologist who has discovered an ancient printing press in a hidden temple. This mystical device has a peculiar mechanism: in a single operation, it can print a sequence of one or more \textit{identical} symbols starting at any position on a sacred scroll. However, when it prints, it completely overwrites whatever was previously in those positions.
+    \medskip
+    
+    You have been tasked with recreating a sacred inscription, represented as a string $s$ of length $n$ consisting of lowercase English letters. Starting with a blank scroll, you must use this ancient press to reproduce the inscription exactly.
+    
+    For example, to print the inscription \texttt{"aba"}:
+    \begin{itemize}
+        \item One approach uses 3 operations: print \texttt{"a"} at position 0, then \texttt{"b"} at position 1, then \texttt{"a"} at position 2.
+        \item A cleverer approach uses only 2 operations: print \texttt{"aaa"} across all positions first, then overwrite position 1 with \texttt{"b"}.
+    \end{itemize}
+    
+    \begin{enumerate}
+        \item[(a)] Prove that there always exists an optimal solution in which the first printing operation begins at position 0 and prints the character $s[0]$.
+        
+        \item[(b)] Design a \textbf{dynamic programming algorithm} that determines the minimum number of printing operations required to produce the sacred inscription $s$. Your algorithms should run in worst case running time $\mathcal{O}(n^3)$
+        
+        \item[(c)] Provide a proof of correctness for your algorithm.
+        
+        \item[(c)] Prove an upper bound to the worst-case running time of your algorithm and to its memory space utilization.
+    \end{enumerate}
+\end{problem}
+\end{document}

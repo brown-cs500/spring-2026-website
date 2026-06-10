@@ -1,0 +1,271 @@
+\documentclass{cs0500}
+
+\hwk{0}{Getting Started}{}
+
+\begin{document}
+\maketitle
+
+Welcome to cs500! This is going to be a fun and exciting semester. Here are a couple of action items to complete to help you get started with the course. Feel free to reach out on \href{https://www.edstem.org}{EdStem} if you have any questions!
+
+\begin{enumerate}
+    \item The course website is found at \href{https://cs.brown.edu/courses/csci1570}{\texttt{https://brown-cs500.github.io/spring-2026-website/}}. This is where you will be able to find most of the information relating to the course, such as assignments and TA hours!
+    \item Check to see if you have been added to the course \href{www.gradescope.com}{Gradescope} where you will be submitting all of your (\LaTeX-typeset!) assignments. If you have not been \emph{automatically} added, send an email to the HTA and we will get you all sorted out. Please allow 48 hours from your enrollment in the course.
+    \item Join the course EdStem if you have not already! Be sure to check this frequently since this is where we'll be posting lecture materials, along with releasing FAQs/clarifications on any active homework assignment.
+    \item Finally, check out the course syllabus. To communicate, you have reviewed all course policies, and you agree to them. 
+\end{enumerate}
+
+If you have any feedback for the course, there is an \emph{anonymous feedback form} located on the homepage of the course website. We would love to hear from you: both the good and (especially) the bad!
+
+The rest of this homework includes some \textbf{practice problems}. These are only meant for you to check your preparation, \textbf{they are not meant to be turned in and shall not be graded}. Please pay particular attention to the last problem as it includes important information on the set up of the Python environment for the labs.
+\newpage
+\section{Syllabus Review}
+If you have not yet read the course syllabus, it can be found \href{https://docs.google.com/document/d/1o9Rh6Gwo2fHrO0WEwhV24fdg1IbsEtGsZxFKkDz50sE/edit?usp=sharing}{here}. Please read through the syllabus, and proceed to answer the questions below.
+\begin{problem}
+    \begin{enumerate}[(a)]
+    \item What is the course late day policy?
+    \item When is the latest you are allowed to get checked off for a lab?
+    \item When are the midterm exam and the final exam?
+    \item Consider the following situation:
+        Alice and Bob meet up after class to talk about some of the concepts from the lecture that are on this week's homework assignment. They draw out some examples on a whiteboard and discuss some potential solutions.
+        Bob points out that one of the examples they did was similar to one of the homework problems, and decided to do that problem together on the whiteboard and type up their solution directly from their shared notes before moving on.
+    Do Alice's and Bob's actions violate the collaboration policy? Why or why not?
+    \item Is using GitHub Copilot during a lab a violation of the collaboration policy?
+    \item Suppose that, after the semester ends, a student makes their solutions available on GitHub to impress potential employers.  Have they violated the course policy?
+\end{enumerate}
+\end{problem}
+
+\newpage
+\section{Preliminary Review Questions}
+To help test your preparedness for the mathematical content in this course, we have compiled a list of review questions.
+\subsection{Arithmetic}
+Recall the following exponentiation and logarithm rules:
+\begin{align}
+    \log a^b &= b \log a \\
+    \left (b^{x} \right)^y &= b^{xy} \\
+    b^x b^y &= b^{x + y}
+\end{align}
+\subsection{Modular Arithmetic}
+Recall the following modular arithmetic rules:
+\begin{align}
+    (a \cdot b) \operatorname{mod} m &\equiv (a \operatorname{mod} m) \cdot (b \operatorname{mod} m) \pmod{m} \\
+    (a + b) \operatorname{mod} m &\equiv (a \operatorname{mod} m) + (b \mod m) \pmod{m}
+\end{align}
+
+\noindent \textbf{Quotient Remainder Theorem:} For any integers $a,b$, there exists $q,r$ such that $a = qb + r$ where $0 \leq r < b$.
+
+\begin{problem}
+    \begin{enumerate}[(a)]
+        \item If $4^5 2^{17} = 2^x$, what is $x$?
+        \item If $\log_2 2^{3} 8^{7} = x$, what is $x$?
+        \item What is $(17 \cdot 31) \operatorname{mod} 7$?
+        \item What is $(63 + 97) \operatorname{mod} 9$?
+        \item What integers $q,r$ satisfy the quotient remainder theorem with $a = 39$, $b = 23$?
+        \item What integers $q,r$ satisfy the quotient remainder theorem with $a = 101$, $b = 11$?
+    \end{enumerate}
+\end{problem}
+\pagebreak
+\subsection{Series}
+\begin{problem} Write a closed-form formula for each of the following series.% Show your work.
+    \begin{enumerate}[(a)]
+        \begin{multicols}{2}
+            \item \begin{equation*}
+                3+5+7+\dots+(1+2n)+(3+2n)
+            \end{equation*}
+            \item \begin{equation*}
+                \sum_{i=0}^{n-1} 2(n - i)
+            \end{equation*}
+            \item \begin{equation*}
+                \sum_{i=0}^{n-1} (r^i)\text{, for }r \neq 1
+            \end{equation*}
+            \item \begin{equation*}
+                \sum_{i=0}^{\log_2(n)-1} \frac{1}{4^i}
+            \end{equation*}
+        \end{multicols} 
+    \end{enumerate}
+\end{problem}
+\begin{solution}
+    % Type your solutions to Problem 3 here! Try using the equation or align environment to type your answers and show your work! (If you already have your own preferred style of showing work, feel free to do what you like!)
+    \textbf{Example:} Solving $1+2+3+\dots+n$
+    \begin{align*}
+        1+2+3+\dots+n &= \sum_{i=1}^{n}i \\ % The environment will align all symbols right after the & symbol (in this case, all of the = will be aligned). All new lines require a \\ (except for the end).
+        &= \boxed{\frac{n(n+1)}{2}} 
+    \end{align*}
+\end{solution}
+\subsection{Probability}
+\begin{problem} For each of the following, show your work.
+    \begin{enumerate}[(a)]
+        \item Professor Rosencrantz flips a fair coin twice. Professor Guildenstern flips a fair coin once. What is the probability that Professor Rosencrantz obtains strictly more heads than Professor Guildenstern?
+        \item You roll two ordinary, 6-sided dice. 
+        \begin{enumerate}[(i)]
+            \item What is the expected value of the sum of the two values showing?
+            \item What is the expected value of the maximum of the two values showing?
+            \item How do these quantities change if instead of a 6-sided dice, we roll a 1000-sided dice?
+        \end{enumerate}  
+        \item You flip a coin until you get your first tails.
+        %\begin{enumerate}[(i)] 
+            What is the the expected number of flips until your first tails? 
+            %\item (Optional bonus challenge): What is the expected number of coin flips until your first two tails %in a row?
+        %\end{enumerate}
+%  %  \item If two random variables $X$ and $Y$ are independent, show that the random variables $f(X)$ and $g(Y)$ are also independent.
+    \item Consider two flips of a fair coin. Denote the outcomes by
+\((X_1, X_2)\), where each \(X_i\) is \(\text{Heads (H)}\) or \(\text{Tails (T)}\).
+Define the following events:
+\[
+A = \{\text{first flip is Heads}\}
+\]
+\[
+B = \{\text{second flip is Heads}\}
+\]
+\[
+C = \{\text{both flips match}\}
+\]
+
+\begin{enumerate}
+[(i)]
+  \item Show whether \(A\) and \(B\) are independent or not.
+  \item Show whether \(A\) and \(C\) are independent or not.
+  \item Show whether \(B\) and \(C\) are independent or not.
+  \item Finally, check whether \(A\), \(B\), and \(C\) are \textbf{mutually} independent:
+  \[
+    P(A \cap B \cap C) \stackrel{?}{=} P(A)\,P(B)\,P(C).
+  \]
+  Explain your observations and reconcile any discrepancies you find.
+\end{enumerate}
+    \item There are three pancakes in a stack. One is burnt on one side, one is burnt on two sides, and the other isn't burnt on either side. The pancakes are stacked on top of each other so that a burnt side is visible. What is the probability that the pancake that is burnt on both sides is on top?
+    \end{enumerate}
+\end{problem}
+
+
+\pagebreak
+
+\section{Python Environment Set-up and Practice}
+Our labs will use Python, so you will need to set up some sort of Python environment to use for the lab assignments. We will follow the same structure for virtual environments as CS200:
+\begin{enumerate}
+    \item Each lab will come with its own \verb#requirements.txt# file that contains the requirements
+    \item You will be expected to create your virtual environment at the beginning of each lab. Instructions on how to do this can be found in the guide \href{https://docs.cs200.io/s/python-stencil-setup-guide}{here}.
+\end{enumerate}
+Before your first lab, you should have the following installed:
+\begin{enumerate}[(a)]
+    \item Python 3.10. You may use a more recent version of Python, but historically later versions have been buggy with the labs. If you don't yet have Python installed on your system, you can download it \href{https://www.python.org/downloads/}{here}.
+    \item VS Code (which can be downloaded \href{https://code.visualstudio.com/}{here}). You may also use a different preferred IDE, but TAs will not be able help you regarding related issues (i.e., configuring pytest).
+\end{enumerate} 
+With these installed, and with the above virtual environment guide from CS200, you should be all set for your first lab!
+
+\subsection{Practice with Python}
+Python will be the language used for the labs. Here are some features that may be helpful. For slicing and list comprehension, format your code in \LaTeX.
+\begin{itemize}
+  \item \textbf{Exercise 1: Slicing}
+
+  Python allows you to extract portions (subsequences) of lists, tuples, and strings using a concise \emph{slicing} syntax.
+
+  \begin{lstlisting}[caption={Basic Python Slicing}, label={lst:slicing}]
+my_list = [10, 20, 30, 40, 50, 60, 70, 80]
+
+# Slice from index 2 (inclusive) to index 5 (exclusive)
+slice_1 = my_list[2:5]   # [30, 40, 50]
+
+# Slice from the start until index 3 (exclusive)
+slice_2 = my_list[:3]    # [10, 20, 30]
+
+# Slice from index 4 (inclusive) to the end
+slice_3 = my_list[4:]    # [50, 60, 70, 80]
+
+# Slice with a step of 2
+slice_4 = my_list[::2]   # [10, 30, 50, 70]
+
+# Reverse a list using slicing
+reversed_list = my_list[::-1]  # [80, 70, 60, 50, 40, 30, 20, 10]
+  \end{lstlisting}
+
+ Using only a sequence of list slicing, from a list of the first 40 positive integers ($[1, 2, 3, \dots, 40]$), select those which are of the form $5k+1$ where $k$ is an integer, between 10 and 35 in descending order.
+
+  \item \textbf{Exercise 2: List Comprehension}
+
+  List comprehensions provide a concise way to construct lists in Python. They can often replace loops for building or transforming lists.
+
+  \begin{lstlisting}[caption={Examples of List Comprehensions}, label={lst:listcomp}]
+# Generate squares of numbers from 0 to 9
+squares = [x**2 for x in range(10)]  # [0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
+
+# Filter: keep only even numbers
+evens = [x for x in range(10) if x % 2 == 0]  # [0, 2, 4, 6, 8]
+
+# Convert a list of strings to uppercase
+names = ["alice", "bob", "charlie"]
+uppercase_names = [name.upper() for name in names] 
+# ['ALICE', 'BOB', 'CHARLIE']
+  \end{lstlisting}
+
+   Using a list comprehension, create a list \texttt{cube\_odds} that contains the cubes of all odd numbers between 1 and 20.
+\item \textbf{Exercise 3: Understanding your code}
+    
+    In Python, objects are assigned by object reference. For each of the following, what is the output of the program? (Try to think through these programs without running the code). These can be tricky, but will be  helpful in helping you debug your labs.
+\begin{enumerate}[(a)]
+%---------------------------------------------
+  \item \textbf{Direct Assignment to Same Object}
+  \begin{lstlisting}
+main_list = [0, 1, 2, 3, 4]
+copy_list = main_list
+copy_list[0] = 100
+print(main_list)
+print(copy_list)
+  \end{lstlisting}
+
+  %---------------------------------------------
+  \item \textbf{Slicing to Create a New List}
+  \begin{lstlisting}
+main_list = [0, 1, 2, 3, 4]
+copy_list = main_list[:] 
+main_list[0] = 100
+print(main_list)
+print(copy_list)
+  \end{lstlisting}
+
+  %---------------------------------------------
+  \item \textbf{Reassigning a Slice Variable}
+  \begin{lstlisting}
+main_list = [0, 1, 2, 3, 4]
+sub_list = main_list[1:3]  # [1, 2]
+sub_list = [101, 102]
+print(main_list)
+print(sub_list)
+  \end{lstlisting}
+  %---------------------------------------------
+  \item \textbf{Referencing an Undefined Variable}
+  \begin{lstlisting}
+main_list = [0, 1, 2, 3, 4]
+print(main_list)
+print(sub_list)
+  \end{lstlisting}
+  %---------------------------------------------
+  \item \textbf{Modifying a List of Lists}
+  \begin{lstlisting}
+main_list = [[0]] * 5
+main_list[0][0] = 1
+print(main_list)
+  \end{lstlisting}
+
+  %---------------------------------------------
+  \item \textbf{Creating Distinct Nested Lists}
+  \begin{lstlisting}
+main_list = [[0] for _ in range(5)]
+main_list[0][0] = 1
+print(main_list)
+  \end{lstlisting}
+%---------------------------------------------
+  \item \textbf{String Copy and Concatenation}
+
+  \begin{lstlisting}
+list_str = "01234"
+list_str_copy = list_str
+list_str_copy = list_str_copy + "567"
+print(list_str)
+print(list_str_copy)
+  \end{lstlisting}
+      
+\end{enumerate}
+\item \textbf{Other General Tips:} \begin{enumerate}
+    \item Check out Python's \href{https://www.w3schools.com/python/python_operators_precedence.asp}{Operator Precedence}. Especially when dealing with bit operations, it is typically better to specify your order with parentheses to avoid unexpected bugs.
+\end{enumerate}
+\end{itemize}
+\end{document}

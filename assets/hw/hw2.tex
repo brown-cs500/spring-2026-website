@@ -1,0 +1,148 @@
+\documentclass{cs0500}
+
+\hwk{2}{Searching and Sorting}{February 4, 2026 at 11:59 p.m.}
+
+\begin{document}
+\maketitle
+
+\assignmentInstructions
+
+\begin{problem}
+A \emph{geometric sequence} with common ratio $r$ is a sequence of numbers given by:
+\begin{equation*}
+    a_1,\ a_1r,\ a_1r^2,\ a_2r^3,\ \cdots
+\end{equation*}
+For example, the following is a geometric sequence with a common ratio $2$.
+\begin{equation*}
+    1,\ 2,\ 4,\ 8,\ 16,\ \cdots
+\end{equation*}
+\begin{enumerate}
+    \item[(a)] Describe an algorithm to find the value of a deleted term of a geometric sequence of length $n$ with common ratio $r$ in $O(\log{n})$ time. For example, the sequence
+\begin{equation*}
+    1,\ \frac{1}{3},\ \frac{1}{9},\ \frac{1}{81},\ \frac{1}{243}
+\end{equation*}
+is missing the term $\cfrac{1}{27}$.
+    \item[(b)] Provide proof of the correctness of the algorithm.
+    \item[(c)] Prove an upper bound on the running time of your algorithm (asymptotic analysis is sufficient).
+\end{enumerate}
+\end{problem}
+
+\begin{solution}
+    % TODO: Your solution here!
+\end{solution}
+
+\newpage
+
+\begin{problem}
+Let $X = [a_1, \cdots, a_n]$ and $Y = [y_1, \cdots, y_n]$ be two sorted arrays (in non-decreasing order). For simplicity, assume $n$ is a power of $2$.
+\begin{enumerate}
+    \item[(a)] Describe an algorithm to find the median of all $2n$ elements in the arrays $X$ and $Y$ in $O(\log{n})$ time.
+    \item[(b)] Provide a succinct proof of the correctness of the algorithm.
+    \item[(c)] Provide an analysis of the running time (asymptotic analysis is correct) and memory utilization of the algorithm.
+\end{enumerate}
+\noindent \emph{Hint:} Note that the given arrays are already sorted and of the \textbf{same size}! You may want to use binary search to exploit this fact. :)
+\end{problem}
+\begin{solution}
+    % TODO: Your solution here!
+\end{solution}
+
+
+
+% adaptation of previous pset problem, merge sort modify
+\newpage
+\begin{problem}
+Let $A$ be an array of $n$ \emph{distinct} integers. An \textit{inversion} in $A$ is a pair of indices $i$ and $j$ such that $i < j$, but $A_i > A_j$. For example, the following sequence has three \textit{inversions}:
+\begin{gather*}
+    \{1,\ 5,\ 2,\ 8,\ 4\}\\
+    (5,2),\ (5,4),\ (8, 4)
+\end{gather*}
+\begin{enumerate}
+    \item[(a)] Provide a succinct (but clear) description of an algorithm running in $O(n\log{n})$ time to determine the number of \textit{ inversions} in $A$. You may provide a pseudocode.
+    \item[(b)] Provide a succinct proof of the correctness of the algorithm.
+    \item[(c)] Provide an analysis of the running time (asymptotic analysis is correct) and memory utilization of the algorithm.
+\end{enumerate}
+\end{problem}
+\begin{solution}
+    % TODO: Your solution here!
+\end{solution}
+
+
+
+% hint: use heapsort
+\newpage
+
+
+\newpage
+\begin{problem}
+  Through this problem, assume you are working only with comparison-based sorting algorithms. All following questions refer to the following standard insertion sort:
+\begin{center}
+    \begin{verbatim}
+for j = 2 to n:
+    key = A[j]
+    i = j - 1
+    while i >= 1 and A[i] > key:
+        A[i+1] = A[i]
+        i = i - 1
+    A[i+1] = key
+\end{verbatim}
+\end{center}
+
+You may assume constant-time overhead per loop iteration.
+
+
+\subsubsection*{Part I: Inversions and Insertion Sort}
+
+As previously defined, an \emph{inversion} in array $A$ is a pair $(i,j)$ with $i<j$ and $A[i] > A[j]$. Let $\mathrm{inv}(A)$ denote the number of inversions.
+
+\begin{enumerate}
+    \item Show that each execution of the inner \texttt{while} loop removes exactly one inversion.
+    \item Deduce that insertion sort runs in
+    \[
+        \Theta(n + \mathrm{inv}(A)).
+    \]
+\end{enumerate}
+
+
+
+\subsubsection*{Part II: $k$ Elements in Correct Final Positions (Known)}
+
+Exactly $k<n$ elements are in their final sorted positions, and the algorithm \textbf{is told which elements these are}.
+
+\begin{enumerate}
+    \item Analyze the running time of \textbf{standard insertion sort} under this assumption. (Do not modify the algorithm.)
+    \item Prove a comparison-based lower bound under this assumption.
+    \item Design a comparison-based sorting algorithm that exploits this knowledge to run in
+    \[
+        O((n-k)\log(n-k)).
+    \]
+\end{enumerate}
+
+\subsubsection*{Part III: $k$ Elements in Correct Final Positions (Unknown)}
+
+Exactly $k<n$ elements are in their final positions, but the algorithm \textbf{does not know which elements}. Access is only via comparisons.
+
+\begin{enumerate}
+    \item Give an asymptotic upper bound on $\mathrm{inv}(A)$ in terms of $n$ and $k$.
+    \item Using Part I, analyze the running time of insertion sort.
+    \item Compare this running time with that obtained under the assumption of Part II. What do you observe?
+    \item Prove a comparison-based lower bound under this assumption.
+    \item Would the standard Merge Sort algorithm's running time be affected by this assumption? An informal explanation (without proof) will be sufficient.
+\end{enumerate}
+
+\subsubsection*{Part IV: $k$ Elements in Correct Relative Order}
+
+The array contains a strictly increasing subsequence of length $k$, but these elements are not necessarily in their final positions.
+
+\begin{enumerate}
+    \item Give an asymptotic upper bound on $\mathrm{inv}(A)$ in terms of $n$ and $k$.
+    \item Using Part I, analyze the running time of insertion sort.
+    \item Prove a comparison-based lower bound under this assumption.
+    \item  Are there scenarios where insertion sort may perform better than Merge Sort under this assumption? An informal explanation (without proof) will be sufficient.
+\end{enumerate}
+\end{problem}
+\begin{solution}
+    % TODO: Your solution here!
+\end{solution}
+\end{document}
+
+
